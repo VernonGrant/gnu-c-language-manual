@@ -103,16 +103,16 @@ float       nextafterf (float x, float y);
 long double nextafterl (long double x, long double y);
 ```
 
-These return the machine number nearest `x`{.variable} in the direction
-of `y`{.variable}. For example, `nextafter (1.0, 2.0)` produces the same
+These return the machine number nearest `x` in the direction
+of `y`. For example, `nextafter (1.0, 2.0)` produces the same
 result as `1.0 + macheps (1.0)` and `1.0 + DBL_EPSILON`. See [FP Bit
 Twiddling](https://www.gnu.org/software/libc/manual/html_node/FP-Bit-Twiddling.md#FP-Bit-Twiddling)
 in The GNU C Library Reference Manual.
 
 It is important to know that the machine epsilon is not symmetric about
 all numbers. At the boundaries where normalization changes the exponent,
-the epsilon below `x`{.variable} is smaller than that just above
-`x`{.variable} by a factor `1 / base`. For example, `macheps (1.0)`
+the epsilon below `x` is smaller than that just above
+`x` by a factor `1 / base`. For example, `macheps (1.0)`
 returns `+0x1p-52`, whereas `macheps (-1.0)` returns `+0x1p-53`. Some
 authors distinguish those cases by calling them the *positive* and
 *negative*, or *big* and *small*, machine epsilons. You can produce
@@ -123,8 +123,8 @@ eps_neg = 1.0 - nextafter (1.0, -1.0);
 eps_pos = nextafter (1.0, +2.0) - 1.0;
 ```
 
-If `x`{.variable} is a variable, such that you do not know its value at
-compile time, then you can substitute literal `y`{.variable} values with
+If `x` is a variable, such that you do not know its value at
+compile time, then you can substitute literal `y` values with
 either `-inf()` or `+inf()`, like this:
 
 ``` C
@@ -132,11 +132,11 @@ eps_neg = x - nextafter (x, -inf ());
 eps_pos = nextafter (x, +inf() - x);
 ```
 
-In such cases, if `x`{.variable} is Infinity, then *the `nextafter`
-functions return `y`{.variable} if `x`{.variable} equals
-`y`{.variable}*. Our two assignments then produce
-`+0x1.fffffffffffffp+1023` (about 1.798e+308) for `eps_neg`{.variable}
-and Infinity for `eps_pos`{.variable}. Thus, the call
+In such cases, if `x` is Infinity, then *the `nextafter`
+functions return `y` if `x` equals
+`y`*. Our two assignments then produce
+`+0x1.fffffffffffffp+1023` (about 1.798e+308) for `eps_neg`
+and Infinity for `eps_pos`. Thus, the call
 `nextafter (INFINITY, -INFINITY)` can be used to find the largest
 representable finite number, and with the call `nextafter (0.0, 1.0)`,
 the smallest representable number (here, `0x1p-1074` (about 4.491e-324),

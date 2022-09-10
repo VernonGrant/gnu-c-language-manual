@@ -16,8 +16,8 @@ case low ... high:
 ```
 
 This has the same effect as the proper number of individual `case`
-labels, one for each integer value from `low`{.variable} to
-`high`{.variable}, inclusive.
+labels, one for each integer value from `low` to
+`high`, inclusive.
 
 This feature is especially useful for ranges of ASCII character codes:
 

@@ -22,8 +22,8 @@ lvalue = value-to-store
 ```
 
 We say it assigns the value of the expression
-`value-to-store`{.variable} to the location `lvalue`{.variable}, or that
-it stores `value-to-store`{.variable} there. You can think of the "l" in
+`value-to-store` to the location `lvalue`, or that
+it stores `value-to-store` there. You can think of the "l" in
 "lvalue" as standing for "left," since that's what you put on the left
 side of the assignment operator.
 
@@ -32,7 +32,7 @@ can be assigned to. To use the lvalue in the left side of an assignment,
 it has to be *modifiable*. In C, that means it was not declared with the
 type qualifier `const` (see [`const` Variables and Fields](const.md)).
 
-The value of the assignment expression is that of `lvalue`{.variable}
+The value of the assignment expression is that of `lvalue`
 after the new value is stored in it. This means you can use an
 assignment inside other expressions. Assignment operators are
 right-associative so that

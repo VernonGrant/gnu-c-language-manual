@@ -61,8 +61,8 @@ variable, and use that variable in `min`:
 (where we assume that `foo` returns type `int`).
 
 When the repeated value appears as the condition of the `?:` operator
-and again as its `iftrue`{.variable} expression, you can avoid repeated
-execution by omitting the `iftrue`{.variable} expression, like this:
+and again as its `iftrue` expression, you can avoid repeated
+execution by omitting the `iftrue` expression, like this:
 
 ``` C
 #define x_or_y(X, Y)  ((X) ? : (Y))

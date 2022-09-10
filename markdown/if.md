@@ -20,7 +20,7 @@ controlled text
 #endif /* expression */
 ```
 
-`expression`{.variable} is a C expression of integer type, subject to
+`expression` is a C expression of integer type, subject to
 stringent restrictions so its value can be computed at compile time. It
 may contain
 
@@ -57,13 +57,13 @@ is likely to make the expression invalid. Preprocessing does not
 recognize `enum` constants; they too are simply identifiers, so if they
 are not macros, they stand for zero.
 
-Preprocessing calculates the value of `expression`{.variable}, and
+Preprocessing calculates the value of `expression`, and
 carries out all calculations in the widest integer type known to the
 compiler; on most machines supported by GNU C this is 64 bits. This is
 not the same rule as the compiler uses to calculate the value of a
 constant expression, and may give different results in some cases. If
 the value comes out to be nonzero, the `#if` succeeds and the
-`controlled text`{.variable} is compiled; otherwise it is skipped.
+`controlled text` is compiled; otherwise it is skipped.
 
 ------------------------------------------------------------------------
 

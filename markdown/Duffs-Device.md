@@ -21,8 +21,8 @@ copy (char *to, char *from, int count)
 }
 ```
 
-which copies memory starting at `from`{.variable} to memory starting at
-`to`{.variable}.
+which copies memory starting at `from` to memory starting at
+`to`.
 
 Duff's device involves unrolling the loop so that it copies several
 characters each time around, and using a `switch` statement to enter the

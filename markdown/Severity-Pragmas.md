@@ -15,7 +15,7 @@ diagnostics to be generated.
 `_Pragma ("GCC diagnostic error option")`
 
 -   For code following this pragma, treat diagnostics of the variety
-    specified by `option`{.variable} as errors. For example:
+    specified by `option` as errors. For example:
 
     
     ``` C
@@ -23,21 +23,21 @@ diagnostics to be generated.
     ```
     
 
-    specifies to treat diagnostics enabled by the `-Wformat`{.variable}
+    specifies to treat diagnostics enabled by the `-Wformat`
     option as errors rather than warnings.
 
 `#pragma GCC diagnostic warning option`\
 `_Pragma ("GCC diagnostic warning option")`
 
 -   For code following this pragma, treat diagnostics of the variety
-    specified by `option`{.variable} as warnings. This overrides the
-    `-Werror`{.variable} option which says to treat warnings as errors.
+    specified by `option` as warnings. This overrides the
+    `-Werror` option which says to treat warnings as errors.
 
 `#pragma GCC diagnostic ignore option`\
 `_Pragma ("GCC diagnostic ignore option")`
 
 -   For code following this pragma, refrain from reporting any
-    diagnostics of the variety specified by `option`{.variable}.
+    diagnostics of the variety specified by `option`.
 
 `#pragma GCC diagnostic push`\
 `_Pragma ("GCC diagnostic push")`\

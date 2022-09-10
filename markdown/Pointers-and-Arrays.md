@@ -18,7 +18,7 @@ gets the value from there.
 
 That pointer-arithmetic construct is the *definition* of square brackets
 in C. `a[b]` means, by definition, `*(a + b)`. This definition uses
-`a`{.variable} and `b`{.variable} symmetrically, so one must be a
+`a` and `b` symmetrically, so one must be a
 pointer and the other an integer; it does not matter which comes first.
 
 Since indexing with square brackets is defined in terms of addition and

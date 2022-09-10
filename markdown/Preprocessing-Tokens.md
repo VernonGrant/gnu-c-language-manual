@@ -88,9 +88,9 @@ header name
 
 -   Within the `#include` directive, preprocessing recognizes a *header
     name* token. It consists of '`"name"`', where
-    `name`{.variable} is a sequence of source characters other than
+    `name` is a sequence of source characters other than
     newline and '`"`', or '`<name>`', where
-    `name`{.variable} is a sequence of source characters other than
+    `name` is a sequence of source characters other than
     newline and '`>`'.
 
     In practice, it is more convenient to think that the `#include` line

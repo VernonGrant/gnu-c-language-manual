@@ -25,9 +25,9 @@ is.
 
 For unsigned integers, the entire space is used to represent a
 nonnegative value. Signed integers are stored using *two's-complement
-representation*: a signed integer with `n`{.variable} bits has a range
-from *-2^(`n`{.variable}\ -\ 1)^* to -1 to 0 to 1 to
-*+2^(`n`{.variable}\ -\ 1)^ - 1*, inclusive. The leftmost, or
+representation*: a signed integer with `n` bits has a range
+from *-2^(`n`\ -\ 1)^* to -1 to 0 to 1 to
+*+2^(`n`\ -\ 1)^ - 1*, inclusive. The leftmost, or
 high-order, bit is called the *sign bit*.
 
 There is only one value that means zero, and the most negative number
@@ -48,8 +48,8 @@ does not interrupt the control flow or signal an error. What it does
 depends on signedness.
 
 For unsigned arithmetic, the result of an operation that overflows is
-the `n`{.variable} low-order bits of the correct value. If the correct
-value is representable in `n`{.variable} bits, that is always the
+the `n` low-order bits of the correct value. If the correct
+value is representable in `n` bits, that is always the
 result; thus we often say that "integer arithmetic is exact," omitting
 the crucial qualifying phrase "as long as the exact result is
 representable."

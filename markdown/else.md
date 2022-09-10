@@ -21,8 +21,8 @@ text-if-false
 #endif /* Not expression */
 ```
 
-If `expression`{.variable} is nonzero, the `text-if-true`{.variable} is
-included and the `text-if-false`{.variable} is skipped. If
-`expression`{.variable} is zero, the opposite happens.
+If `expression` is nonzero, the `text-if-true` is
+included and the `text-if-false` is skipped. If
+`expression` is zero, the opposite happens.
 
 You can use `#else` with `#ifdef` and `#ifndef`, too.

@@ -47,7 +47,7 @@ its alternatives.
     structure, the remaining fields are initialized to zero.
 
 -   The initializer for a union-type variable has the form `{ value }`,
-    where `value`{.variable} initializes the *first alternative* in the
+    where `value` initializes the *first alternative* in the
     union definition.
 
 For an array of arrays, a structure containing arrays, an array of

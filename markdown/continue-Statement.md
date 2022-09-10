@@ -11,7 +11,7 @@ Up: [Loop Statements](Loop-Statements.md)  
 The `continue` statement looks like '`continue;`', and its
 effect is to jump immediately to the end of the innermost loop
 construct. If it is a `for`-loop, the next thing that happens is to
-execute the loop's `advance`{.variable} expression.
+execute the loop's `advance` expression.
 
 For example, this loop increments `p` until the next null character or
 newline, and operates (in some way not shown) on all the characters in
@@ -32,7 +32,7 @@ for (;*p; ++p)
 ```
 
 Executing '`continue;`' skips the loop body but it does not
-skip the `advance`{.variable} expression, `p++`.
+skip the `advance` expression, `p++`.
 
 We could also write it like this:
 

@@ -21,7 +21,7 @@ functionname (parm_declarations…)
 
 The part before the open-brace is called the *function header*.
 
-Write `void` as the `returntype`{.variable} if the function does not
+Write `void` as the `returntype` if the function does not
 return a value.
 
 -   [Function Parameter Variables](Function-Parameter-Variables.md)

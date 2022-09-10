@@ -63,18 +63,18 @@ is, by definition, incorrect C code.
 
 The rules for storage aliasing in C are based on the two data types: the
 type of the object, and the type it is accessed through. The rules
-permit accessing part of a storage object of type `t`{.variable} using
+permit accessing part of a storage object of type `t` using
 only these types:
 
--   `t`{.variable}.
--   A type compatible with `t`{.variable}. See [Compatible
+-   `t`.
+-   A type compatible with `t`. See [Compatible
     Types](Compatible-Types.md).
 -   A signed or unsigned version of one of the above.
 -   A qualifed version of one of the above. See [Type
     Qualifiers](Type-Qualifiers.md).
 -   An array, structure (see [Structures](Structures.md)), or union
     type (`Unions`) that contains one of the above, either directly as a
-    field or through multiple levels of fields. If `t`{.variable} is
+    field or through multiple levels of fields. If `t` is
     `double`, this would include
     `struct s { union { double d[2]; int i[4]; } u; int i; };` because
     there's a `double` inside it somewhere.
@@ -82,7 +82,7 @@ only these types:
 
 What do these rules say about the example in this subsection?
 
-For `foo.size` (equivalently, `a->size`), `t`{.variable} is `int`. The
+For `foo.size` (equivalently, `a->size`), `t` is `int`. The
 type `float` is not allowed as an aliasing type by those rules, so
 `b->size` is not supposed to alias with elements of `j`. Based on that
 assumption, GNU C makes a permitted optimization that was not, in this

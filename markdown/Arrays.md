@@ -10,7 +10,7 @@ Next: [Enumeration Types](Enumeration-Types.md), Previous:
 
 An *array* is a data object that holds a series of *elements*, all of
 the same data type. Each element is identified by its numeric
-`index`{.variable} within the array.
+`index` within the array.
 
 We presented arrays of numbers in the sample programs early in this
 manual (see [An Example with Arrays](Array-Example.md)). However,

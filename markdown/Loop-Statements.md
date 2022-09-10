@@ -14,7 +14,7 @@ different kinds of loop statements, described in the following
 subsections.
 
 Every kind of loop statement is a complex statement because contains a
-component, here called `body`{.variable}, which is a nested statement.
+component, here called `body`, which is a nested statement.
 Most often the body is a block.
 
 -   [`while` Statement](while-Statement.md)

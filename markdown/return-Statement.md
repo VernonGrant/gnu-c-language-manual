@@ -26,7 +26,7 @@ The form that specifies a value looks like this:
 return value;
 ```
 
-which computes the expression `value`{.variable} and makes the function
+which computes the expression `value` and makes the function
 return that. If necessary, the value undergoes type conversion to the
 function's declared return value type, which works like assigning the
 value to a variable of that type.

@@ -31,10 +31,10 @@ function (parmnames)
 }
 ```
 
-In `parmnames`{.variable}, only the parameter names are listed,
-separated by commas. Then `parm_declarations`{.variable} declares their
+In `parmnames`, only the parameter names are listed,
+separated by commas. Then `parm_declarations` declares their
 data types; these declarations look just like variable declarations. If
-a parameter is listed in `parmnames`{.variable} but has no declaration,
+a parameter is listed in `parmnames` but has no declaration,
 it is implicitly declared `int`.
 
 There is no reason to write a definition this way nowadays, but they can

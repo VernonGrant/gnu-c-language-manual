@@ -14,9 +14,9 @@ size in a C program, use `sizeof`. There are two ways to use it:
 
 `sizeof expression`
 
--   This gives the size of `expression`{.variable}, based on its data
-    type. It does not calculate the value of `expression`{.variable},
-    only its size, so if `expression`{.variable} includes side effects
+-   This gives the size of `expression`, based on its data
+    type. It does not calculate the value of `expression`,
+    only its size, so if `expression` includes side effects
     or function calls, they do not happen. Therefore, `sizeof` is always
     a compile-time operation that has zero run-time cost.
 
@@ -44,7 +44,7 @@ size in a C program, use `sizeof`. There are two ways to use it:
     
 
     The expression `sizeof array` gives the size of the array, not the
-    size of a pointer to an element. However, if `expression`{.variable}
+    size of a pointer to an element. However, if `expression`
     is a function parameter that was declared as an array, that variable
     really has a pointer type (see [Array parameters are
     pointers](Array-Parm-Pointer.md)), so the result is the size of
@@ -52,7 +52,7 @@ size in a C program, use `sizeof`. There are two ways to use it:
 
 `sizeof (type)`
 
--   This gives the size of `type`{.variable}. For example,
+-   This gives the size of `type`. For example,
 
     
     ``` C

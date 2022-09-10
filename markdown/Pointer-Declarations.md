@@ -8,7 +8,7 @@ Previous: [Pointer Types](Pointer-Types.md), Up:
 
 ### 14.3 Pointer-Variable Declarations 
 
-The way to declare that a variable `foo` points to type `t`{.variable}
+The way to declare that a variable `foo` points to type `t`
 is
 
 ``` C
@@ -16,8 +16,8 @@ t *foo;
 ```
 
 To remember this syntax, think "if you dereference `foo`, using the
-'`*`' operator, what you get is type `t`{.variable}. Thus,
-`foo` points to type `t`{.variable}."
+'`*`' operator, what you get is type `t`. Thus,
+`foo` points to type `t`."
 
 Thus, we can declare variables that hold pointers to these three types,
 like this:

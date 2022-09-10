@@ -37,8 +37,8 @@ overflow, other than the default way:
 `-fwrapv`
 
 -   Make signed integer operations well-defined, like unsigned integer
-    operations: they produce the `n`{.variable} low-order bits of the
-    true result. The highest of those `n`{.variable} bits is the sign
+    operations: they produce the `n` low-order bits of the
+    true result. The highest of those `n` bits is the sign
     bit of the result. With `-fwrapv`, these out-of-range
     operations are not considered overflow, so (strictly speaking)
     integer overflow never happens.

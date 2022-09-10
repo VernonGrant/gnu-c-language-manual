@@ -110,8 +110,8 @@ well. See [Line Control](Line-Control.md).
 `__STDC_VERSION__`
 
 -   This macro expands to the C Standard's version number, a long
-    integer constant of the form `yyyymmL` where `yyyy`{.variable} and
-    `mm`{.variable} are the year and month of the Standard version. This
+    integer constant of the form `yyyymmL` where `yyyy` and
+    `mm` are the year and month of the Standard version. This
     states which version of the C Standard the compiler implements.
 
     The current default value is `201112L`, which signifies the C 2011

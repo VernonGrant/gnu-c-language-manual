@@ -10,7 +10,7 @@ Example](The-First-Example.md)  
 
 To introduce the most basic features of C, let's look at code for a
 simple mathematical function that does calculations on integers. This
-function calculates the `n`{.variable}th number in the Fibonacci series,
+function calculates the `n`th number in the Fibonacci series,
 in which each number is the sum of the previous two: 1, 1, 2, 3, 5, 8,
 13, 21, 34, 55, ....
 

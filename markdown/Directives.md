@@ -21,7 +21,7 @@ couple of examples:
 # error You screwed up!
 ```
 
-We usually refer to a directive as `#name` where `name`{.variable} is
+We usually refer to a directive as `#name` where `name` is
 the directive name. For example, `#define` means the directive that
 defines a macro.
 

@@ -33,24 +33,24 @@ source file name for subsequent code. `#line` has three variants:
 
 `#line linenum`
 
--   `linenum`{.variable} is a non-negative decimal integer constant. It
+-   `linenum` is a non-negative decimal integer constant. It
     specifies the line number that should be reported for the following
     line of input. Subsequent lines are counted from
-    `linenum`{.variable}.
+    `linenum`.
 
 `#line linenum filename`
 
--   `linenum`{.variable} is the same as for the first form, and has the
-    same effect. In addition, `filename`{.variable} is a string constant
+-   `linenum` is the same as for the first form, and has the
+    same effect. In addition, `filename` is a string constant
     that specifies the source file name. Subsequent source lines are
     recorded as coming from that file, until something else happens to
-    change that. `filename`{.variable} is interpreted according to the
+    change that. `filename` is interpreted according to the
     normal rules for a string constant. Backslash escapes are
     interpreted, in contrast to `#include`.
 
 `#line anything else`
 
--   `anything else`{.variable} is checked for macro calls, which are
+-   `anything else` is checked for macro calls, which are
     expanded. The result should match one of the above two forms.
 
 `#line` directives alter the results of the `__FILE__` and `__LINE__`

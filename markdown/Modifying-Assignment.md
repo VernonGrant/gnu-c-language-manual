@@ -52,7 +52,7 @@ lvalue >>= expression
 ```
 
 In most cases, this feature adds no power to the language, but it
-provides substantial convenience. Also, when `lvalue`{.variable}
+provides substantial convenience. Also, when `lvalue`
 contains code that has side effects, the simple assignment performs
 those side effects twice, while the modifying assignment performs them
 once. For instance,

@@ -59,7 +59,7 @@ keyword `_Alignof`.
 
 You can explicitly specify an alignment requirement for a particular
 variable or structure field by adding `_Alignas (alignment)` to the
-declaration, where `alignment`{.variable} is a power of 2 or a type
+declaration, where `alignment` is a power of 2 or a type
 name. For instance:
 
 ``` C
@@ -73,7 +73,7 @@ char _Alignas (double) x;
 ```
 
 specifies that `x` must start on an address that is a multiple of 8.
-However, if `alignment`{.variable} exceeds the maximum alignment for the
+However, if `alignment` exceeds the maximum alignment for the
 machine, that maximum is how much alignment `x` will get.
 
 The older GNU C syntax for this feature looked like

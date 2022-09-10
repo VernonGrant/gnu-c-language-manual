@@ -12,7 +12,7 @@ Conditionals](Conditional-Syntax.md)  
 The special operator `defined` is used in `#if` and `#elif` expressions
 to test whether a certain name is defined as a macro. `defined name` and
 `defined (name)` are both expressions whose value is 1 if
-`name`{.variable} is defined as a macro at the current point in the
+`name` is defined as a macro at the current point in the
 program, and 0 otherwise. Thus, `#if defined MACRO` is precisely
 equivalent to `#ifdef MACRO`.
 

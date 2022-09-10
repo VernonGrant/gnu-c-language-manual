@@ -14,8 +14,8 @@ exponent-of-ten, or both; they distinguish it from an integer constant.
 
 To indicate an exponent, write '`e`' or '`E`'. The
 exponent value follows. It is always written as a decimal number; it can
-optionally start with a sign. The exponent `n`{.variable} means to
-multiply the constant's value by ten to the `n`{.variable}th power.
+optionally start with a sign. The exponent `n` means to
+multiply the constant's value by ten to the `n`th power.
 
 Thus, '`1500.0`', '`15e2`', '`15e+2`',
 '`15.0e2`', '`1.5e+3`', '`.15e4`', and

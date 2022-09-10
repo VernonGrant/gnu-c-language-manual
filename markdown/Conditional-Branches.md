@@ -8,7 +8,7 @@ Previous: [Rules for Conditional Operator](Conditional-Rules.md), Up:
 #### 8.4.2 Conditional Operator Branches 
 
 
-We call `iftrue`{.variable} and `iffalse`{.variable} the *branches* of
+We call `iftrue` and `iffalse` the *branches* of
 the conditional.
 
 The two branches should normally have the same type, but a few
@@ -29,8 +29,8 @@ type of the other.
 If one branch is an integer constant with value zero and the other is a
 pointer, the conditional converts zero to the pointer's type.
 
-In GNU C, you can omit `iftrue`{.variable} in a conditional expression.
-In that case, if `condition`{.variable} is nonzero, its value becomes
+In GNU C, you can omit `iftrue` in a conditional expression.
+In that case, if `condition` is nonzero, its value becomes
 the value of the conditional expression, after conversion to the common
 type. Thus,
 
@@ -41,7 +41,7 @@ x ? : y
 has the value of `x` if that is nonzero; otherwise, the value of `y`.
 
 
-Omitting `iftrue`{.variable} is useful when `condition`{.variable} has
+Omitting `iftrue` is useful when `condition` has
 side effects. In that case, writing that expression twice would carry
 out the side effects twice, but writing it once does them just once. For
 example, if we suppose that the function `next_element` advances a

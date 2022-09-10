@@ -30,8 +30,8 @@ for (i = 1; i < n; ++i)
   }
 ```
 
-In this example, `start`{.variable} is `i = 1`, meaning set `i` to 1.
-`continue-test`{.variable} is `i < n`, meaning keep repeating the loop
-as long as `i` is less than `n`. `advance`{.variable} is `i++`, meaning
+In this example, `start` is `i = 1`, meaning set `i` to 1.
+`continue-test` is `i < n`, meaning keep repeating the loop
+as long as `i` is less than `n`. `advance` is `i++`, meaning
 increment `i` by 1. The body is a block that contains a declaration and
 two statements.

@@ -20,11 +20,11 @@ A function-call expression looks like this:
 function (arguments…)
 ```
 
-Most of the time, `function`{.variable} is a function name. However, it
+Most of the time, `function` is a function name. However, it
 can also be an expression with a function pointer value; that way, the
 program can determine at run time which function to call.
 
-The `arguments`{.variable} are a series of expressions separated by
+The `arguments` are a series of expressions separated by
 commas. Each expression specifies one argument to pass to the function.
 
 The list of arguments in a function call looks just like use of the

@@ -21,13 +21,13 @@ for (start; continue-test; advance)
   body
 ```
 
-The first thing the `for` statement does is compute `start`{.variable}.
+The first thing the `for` statement does is compute `start`.
 The next thing it does is compute the expression
-`continue-test`{.variable}. If that expression is false (zero), the
-`for` statement finishes immediately, so `body`{.variable} is executed
+`continue-test`. If that expression is false (zero), the
+`for` statement finishes immediately, so `body` is executed
 zero times.
 
-However, if `continue-test`{.variable} is true (nonzero), the `for`
-statement executes `body`{.variable}, then `advance`{.variable}. Then it
-loops back to the not-quite-top to test `continue-test`{.variable}
-again. But it does not compute `start`{.variable} again.
+However, if `continue-test` is true (nonzero), the `for`
+statement executes `body`, then `advance`. Then it
+loops back to the not-quite-top to test `continue-test`
+again. But it does not compute `start` again.

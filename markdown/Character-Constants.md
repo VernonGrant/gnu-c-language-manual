@@ -9,7 +9,7 @@ Numbers](Invalid-Numbers.md), Up: [Constants](Constants.md)  
 
 
 A *character constant* is written with single quotes, as in `'c'`. In
-the simplest case, `c`{.variable} is a single ASCII character that the
+the simplest case, `c` is a single ASCII character that the
 constant should represent. The constant has type `int`, and its value is
 the character code of that character. For instance, `'a'` represents the
 character code for the letter '`a`': 97, that is.

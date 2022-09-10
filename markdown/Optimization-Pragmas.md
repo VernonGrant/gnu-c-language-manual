@@ -15,7 +15,7 @@ definitions.
 `#pragma GCC optimize optimization`\
 `_Pragma ("GCC optimize optimization")`
 
--   These pragmas enable the optimization `optimization`{.variable} for
+-   These pragmas enable the optimization `optimization` for
     the following functions. For example,
 
     
@@ -29,7 +29,7 @@ definitions.
     individual functions, rather than for the entire program, is rare
     but can be useful for getting around a bug in the compiler.
 
-    If `optimization`{.variable} does not correspond to a defined
+    If `optimization` does not correspond to a defined
     optimization option, the pragma is erroneous. To turn off an
     optimization, use the corresponding '`-fno-`' option, such
     as '`-fno-forward-propagate`'.

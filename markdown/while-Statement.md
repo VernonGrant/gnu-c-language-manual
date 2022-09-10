@@ -16,11 +16,11 @@ while (test)
   body
 ```
 
-Here, `body`{.variable} is a statement (often a nested block) to repeat,
-and `test`{.variable} is the test expression that controls whether to
+Here, `body` is a statement (often a nested block) to repeat,
+and `test` is the test expression that controls whether to
 repeat it again. Each iteration of the loop starts by computing
-`test`{.variable} and, if it is true (nonzero), that means the loop
-should execute `body`{.variable} again and then start over.
+`test` and, if it is true (nonzero), that means the loop
+should execute `body` again and then start over.
 
 Here's an example of advancing to the last structure in a chain of
 structures chained through the `next` field:

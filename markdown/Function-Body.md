@@ -36,7 +36,7 @@ This function uses two kinds of statements:
     ```
     
 
-    Its meaning is to compute the expression `value`{.variable} and exit
+    Its meaning is to compute the expression `value` and exit
     the function, making it return whatever value that expression
     produced. For instance,
 
@@ -72,12 +72,12 @@ This function uses two kinds of statements:
     ```
     
 
-    Its meaning is to compute the expression `condition`{.variable} and,
-    if it's "true," execute `if-true-statement`{.variable}. Otherwise,
-    execute `if-false-statement`{.variable}. See [`if-else`
+    Its meaning is to compute the expression `condition` and,
+    if it's "true," execute `if-true-statement`. Otherwise,
+    execute `if-false-statement`. See [`if-else`
     Statement](if_002delse-Statement.md).
 
-    Inside the `if`...`else` statement, `condition`{.variable} is simply
+    Inside the `if`...`else` statement, `condition` is simply
     an expression. It's considered "true" if its value is nonzero. (A
     comparison operation, such as `n <= 2`, produces the value 1 if it's
     "true" and 0 if it's "false." See [Numeric
@@ -115,7 +115,7 @@ This function uses two kinds of statements:
     Statement](return-Statement.md).
 
 Calculating `fib` using ordinary integers in C works only for
-`n`{.variable} \< 47, because the value of `fib (47)` is too large to
+`n` \< 47, because the value of `fib (47)` is too large to
 fit in type `int`. The addition operation that tries to add `fib (46)`
 and `fib (45)` cannot deliver the correct result. This occurrence is
 called *integer overflow*.

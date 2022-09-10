@@ -9,8 +9,8 @@ Memory Allocation](Dynamic-Memory-Allocation.md), Up:
 ### 15.3 Field Offset 
 
 
-To determine the offset of a given field `field`{.variable} in a
-structure type `type`{.variable}, use the macro `offsetof`, which is
+To determine the offset of a given field `field` in a
+structure type `type`, use the macro `offsetof`, which is
 defined in the file `stddef.h`. It is used like this:
 
 ``` C

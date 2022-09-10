@@ -21,10 +21,10 @@ programmers and compilers that might otherwise have seemed obvious:
     zero.
 -   `(x - y)` is not the same as `-(y - x)` because when the operands
     are finite and equal, one evaluates to `+0` and the other to `-0`.
--   `x - x` is not the same as `0.0` when `x`{.variable} is Infinity or
+-   `x - x` is not the same as `0.0` when `x` is Infinity or
     a NaN.
 -   `x == x` and `x != x` are not equivalent to `1` and `0` when
-    `x`{.variable} is a NaN.
+    `x` is a NaN.
 -   `x < y` and `isless (x, y)` are not equivalent, because the first
     sets a sticky exception flag (see [Floating Arithmetic Exception
     Flags](Exception-Flags.md)) when an operand is a NaN, whereas the

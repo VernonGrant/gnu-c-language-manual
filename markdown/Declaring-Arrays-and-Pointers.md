@@ -10,14 +10,14 @@ Declarations](Variable-Declarations.md)  
 
 
 To declare a variable that is an array, write `variable[length]` for
-`decorated-variable`{.variable}:
+`decorated-variable`:
 
 ``` C
 int foo[5];
 ```
 
 To declare a variable that has a pointer type, write `*variable` for
-`decorated-variable`{.variable}:
+`decorated-variable`:
 
 ``` C
 struct list_elt *foo;

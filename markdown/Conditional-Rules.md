@@ -7,14 +7,14 @@ Next: [Conditional Operator Branches](Conditional-Branches.md), Up:
 
 #### 8.4.1 Rules for Conditional Operator 
 
-The first operand, `condition`{.variable}, should be a value that can be
+The first operand, `condition`, should be a value that can be
 compared with zero---a number or a pointer. If it is true (nonzero),
-then the conditional expression computes `iftrue`{.variable} and its
+then the conditional expression computes `iftrue` and its
 value becomes the value of the conditional expression. Otherwise the
-conditional expression computes `iffalse`{.variable} and its value
+conditional expression computes `iffalse` and its value
 becomes the value of the conditional expression. The conditional
-expression always computes just one of `iftrue`{.variable} and
-`iffalse`{.variable}, never both of them.
+expression always computes just one of `iftrue` and
+`iffalse`, never both of them.
 
 Here's an example: the absolute value of a number `x` can be written as
 `(x >= 0 ? x : -x)`.

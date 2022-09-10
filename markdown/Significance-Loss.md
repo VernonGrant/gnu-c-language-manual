@@ -23,7 +23,7 @@ the trigonometric and hyperbolic sines have terms of identical
 magnitude, of the general form `x**(2*n + 1) / (2*n + 1)!`. However,
 those in the trigonometric sine series alternate in sign, while those in
 the hyperbolic sine series are all positive. Here is the output of two
-small programs that sum `k`{.variable} terms of the series for
+small programs that sum `k` terms of the series for
 `sin (x)`, and compare the computed sums with known-to-be-accurate
 library functions:
 
@@ -76,7 +76,7 @@ We have added underscores to the numbers to enhance readability.
 
 The `sinh (x)` series with positive terms can be summed to high
 accuracy. By contrast, the series for `sin (x)` suffers increasing
-significance loss, so that when `x`{.variable} = 30 only two correct
+significance loss, so that when `x` = 30 only two correct
 digits remain. Soon after, all digits are wrong, and the answers are
 complete nonsense.
 

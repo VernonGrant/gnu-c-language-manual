@@ -31,7 +31,7 @@ stand for 32-bit integers of type `int`.
 
     It is useful to remember that `~x + 1` equals `-x`, for integers,
     and `~x` equals `-x - 1`. The last example above shows this with -1
-    as `x`{.variable}.
+    as `x`.
 
 `a` & `b`
 

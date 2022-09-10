@@ -50,7 +50,7 @@ frob_bar (struct bar { int a, b; } inval)
 }
 ```
 
-and `body`{.variable} can access the fields of `inval`{.variable} since
+and `body` can access the fields of `inval` since
 the structure type `struct bar` is defined for the whole function body.
 However, there is no way to create a `struct bar` argument to pass to
 `frob_bar`, except with kludges. As a result, defining a structure type

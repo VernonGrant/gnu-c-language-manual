@@ -20,28 +20,28 @@ controlled text
 
 
 This block is called a *conditional group*. The body,
-`controlled text`{.variable}, will be included in compilation if and
-only if `MACRO`{.variable} is defined. We say that the conditional
-*succeeds* if `MACRO`{.variable} is defined, *fails* if it is not.
+`controlled text`, will be included in compilation if and
+only if `MACRO` is defined. We say that the conditional
+*succeeds* if `MACRO` is defined, *fails* if it is not.
 
-The `controlled text`{.variable} inside a conditional can include
+The `controlled text` inside a conditional can include
 preprocessing directives. They are executed only if the conditional
 succeeds. You can nest conditional groups inside other conditional
 groups, but they must be completely nested. In other words, `#endif`
 always matches the nearest `#ifdef` (or `#ifndef`, or `#if`). Also, you
 cannot start a conditional group in one file and end it in another.
 
-Even if a conditional fails, the `controlled text`{.variable} inside it
+Even if a conditional fails, the `controlled text` inside it
 is still run through initial transformations and tokenization.
 Therefore, it must all be lexically valid C. Normally the only way this
 matters is that all comments and string literals inside a failing
 conditional group must still be properly ended.
 
 The comment following the `#endif` is not required, but it is a good
-practice if there is a lot of `controlled text`{.variable}, because it
+practice if there is a lot of `controlled text`, because it
 helps people match the `#endif` to the corresponding `#ifdef`.
 
-Older programs sometimes put `macro`{.variable} directly after the
+Older programs sometimes put `macro` directly after the
 `#endif` without enclosing it in a comment. This is invalid code
 according to the C standard, but it only causes a warning in GNU C. It
 never affects which `#ifndef` the `#endif` matches.

@@ -15,15 +15,15 @@ rounding, then floating-point arithmetic is *exact*. It is easy to
 predict how many digits are needed for the results of arithmetic
 operations:
 
--   addition and subtraction of two `n`{.variable}-digit values with the
+-   addition and subtraction of two `n`-digit values with the
     *same* exponent require at most `n + 1` digits, but when the
     exponents differ, many more digits may be needed;
--   multiplication of two `n`{.variable}-digit values requires exactly 2
-    `n`{.variable} digits;
+-   multiplication of two `n`-digit values requires exactly 2
+    `n` digits;
 -   although integer division produces a quotient and a remainder of no
-    more than `n`{.variable}-digits, floating-point remainder and square
+    more than `n`-digits, floating-point remainder and square
     root may require an unbounded number of digits, and the quotient can
     need many more digits than can be stored.
 
-Whenever a result requires more than `n`{.variable} digits, rounding is
+Whenever a result requires more than `n` digits, rounding is
 needed.

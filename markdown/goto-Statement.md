@@ -15,7 +15,7 @@ goto label;
 ```
 
 Its effect is to transfer control immediately to another part of the
-current function---where the label named `label`{.variable} is defined.
+current function---where the label named `label` is defined.
 
 An ordinary label definition looks like this:
 

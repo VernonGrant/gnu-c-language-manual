@@ -95,7 +95,7 @@ Because of this possible memory allocation, it is risky (in principle)
 to copy one `va_list` variable to another with assignment. Instead, use
 `va_copy`, which copies the substance but allocates separate memory in
 the variable you copy to. The call looks like `va_copy (to, from)`,
-where both `to`{.variable} and `from`{.variable} should be variables of
+where both `to` and `from` should be variables of
 type `va_list`. In principle, do `va_end` on each of these variables
 before its scope ends.
 

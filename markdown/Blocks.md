@@ -41,7 +41,7 @@ There are two uses for nested blocks in C:
 -   To specify the scope for local declarations. For instance, a local
     variable's scope is the rest of the innermost containing block.
 -   To write a series of statements where, syntactically, one statement
-    is called for. For instance, the `execute-if-true`{.variable} of an
+    is called for. For instance, the `execute-if-true` of an
     `if` statement is one statement. To put multiple statements there,
     they have to be wrapped in a block, like this:
     

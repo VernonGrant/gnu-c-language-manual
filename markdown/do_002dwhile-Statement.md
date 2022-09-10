@@ -18,12 +18,12 @@ do
 while (test);
 ```
 
-Here, `body`{.variable} is a statement (possibly a block) to repeat, and
-`test`{.variable} is an expression that controls whether to repeat it
+Here, `body` is a statement (possibly a block) to repeat, and
+`test` is an expression that controls whether to repeat it
 again.
 
-Each iteration of the loop starts by executing `body`{.variable}. Then
-it computes `test`{.variable} and, if it is true (nonzero), that means
-to go back and start over with `body`{.variable}. If `test`{.variable}
+Each iteration of the loop starts by executing `body`. Then
+it computes `test` and, if it is true (nonzero), that means
+to go back and start over with `body`. If `test`
 is false (zero), then the loop stops repeating and execution moves on
 past it.

@@ -9,8 +9,8 @@ Declarations](Variable-Declarations.md)  
 #### 20.1.2 Combining Variable Declarations 
 
 
-When multiple declarations have the same `keywords`{.variable} and
-`basetype`{.variable}, you can combine them using commas. Thus,
+When multiple declarations have the same `keywords` and
+`basetype`, you can combine them using commas. Thus,
 
 ``` C
 keywords basetype

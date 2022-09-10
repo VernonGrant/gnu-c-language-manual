@@ -23,8 +23,8 @@ average_of_three (double a, double b, double c)
 }
 ```
 
-The values of the parameter `a`{.variable}, `b`{.variable} and
-`c`{.variable} do not have to be integers, and even when they happen to
+The values of the parameter `a`, `b` and
+`c` do not have to be integers, and even when they happen to
 be integers, most likely their average is not an integer.
 
 `double` is the usual data type in C for calculations on floating-point

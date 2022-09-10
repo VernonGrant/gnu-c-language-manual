@@ -28,8 +28,8 @@ case value:
   break;
 ```
 
-which means "come here if `selector`{.variable} happens to have the
-value `value`{.variable}," or like this (a GNU C extension):
+which means "come here if `selector` happens to have the
+value `value`," or like this (a GNU C extension):
 
 ``` C
 case rangestart ... rangeend:
@@ -37,8 +37,8 @@ case rangestart ... rangeend:
   break;
 ```
 
-which means "come here if `selector`{.variable} happens to have a value
-between `rangestart`{.variable} and `rangeend`{.variable} (inclusive)."
+which means "come here if `selector` happens to have a value
+between `rangestart` and `rangeend` (inclusive)."
 See [Case Ranges](Case-Ranges.md).
 
 The values in `case` labels must reduce to integer constants. They can

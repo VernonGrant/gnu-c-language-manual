@@ -19,13 +19,13 @@ else
 ```
 
 The first thing this does is compute the value of
-`condition`{.variable}. If that is true (nonzero), then it executes the
-statement `if-true-substatement`{.variable}. If the value of
-`condition`{.variable} is false (zero), then it executes the statement
-`if-false-substatement`{.variable} instead.
+`condition`. If that is true (nonzero), then it executes the
+statement `if-true-substatement`. If the value of
+`condition` is false (zero), then it executes the statement
+`if-false-substatement` instead.
 
 This is a *complex statement* because it contains components
-`if-true-substatement`{.variable} and `if-else-substatement`{.variable}
+`if-true-substatement` and `if-else-substatement`
 that are nested statements. Each must be one and only one statement. The
 way to put multiple statements in such a component is to group them into
 a *block* (see [Blocks](Blocks.md)).

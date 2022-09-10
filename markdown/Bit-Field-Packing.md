@@ -46,7 +46,7 @@ structure just as a named bit field would be allocated.
 You can force the following bit field to advance to the following
 aligned memory object with `type : 0;`.
 
-Both of these constructs can syntactically share `type`{.variable} with
+Both of these constructs can syntactically share `type` with
 ordinary bit fields. This example illustrates both:
 
 ``` C

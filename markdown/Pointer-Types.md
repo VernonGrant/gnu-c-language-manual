@@ -8,8 +8,8 @@ Previous: [Address of Data](Address-of-Data.md), Up:
 
 ### 14.2 Pointer Types 
 
-For each data type `t`{.variable}, there is a type for pointers to type
-`t`{.variable}. For these variables,
+For each data type `t`, there is a type for pointers to type
+`t`. For these variables,
 
 ``` C
 int i;

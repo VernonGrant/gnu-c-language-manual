@@ -25,7 +25,7 @@ context where an integer-valued expression is allowed.
 '`! exp`'
 
 -   Unary operator for logical "not." The value is 1 (true) if
-    `exp`{.variable} is 0 (false), and 0 (false) if `exp`{.variable} is
+    `exp` is 0 (false), and 0 (false) if `exp` is
     nonzero (true).
 
     **Warning:** if `exp` is anything but an lvalue or a function call,
@@ -33,21 +33,21 @@ context where an integer-valued expression is allowed.
 
 '`left && right`'
 
--   The logical "and" binary operator computes `left`{.variable} and, if
-    necessary, `right`{.variable}. If both of the operands are true, the
+-   The logical "and" binary operator computes `left` and, if
+    necessary, `right`. If both of the operands are true, the
     '`&&`' expression gives the value 1 (which is true).
     Otherwise, the '`&&`' expression gives the value 0 (false).
-    If `left`{.variable} yields a false value, that determines the
-    overall result, so `right`{.variable} is not computed.
+    If `left` yields a false value, that determines the
+    overall result, so `right` is not computed.
 
 '`left || right`'
 
--   The logical "or" binary operator computes `left`{.variable} and, if
-    necessary, `right`{.variable}. If at least one of the operands is
+-   The logical "or" binary operator computes `left` and, if
+    necessary, `right`. If at least one of the operands is
     true, the '`||`' expression gives the value 1 (which is
     true). Otherwise, the '`||`' expression gives the value 0
-    (false). If `left`{.variable} yields a true value, that determines
-    the overall result, so `right`{.variable} is not computed.
+    (false). If `left` yields a true value, that determines
+    the overall result, so `right` is not computed.
 
 **Warning:** never rely on the relative precedence of '`&&`'
 and '`||`'. When you use them together, always use parentheses

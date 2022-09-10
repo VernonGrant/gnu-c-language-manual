@@ -173,10 +173,10 @@ Increment operator
     loop. The loop itself consists of
 
     -   Testing `i < n` and exiting the loop if that's false.
-    -   Executing `body`{.variable}.
+    -   Executing `body`.
     -   Advancing the loop (executing `++i`, which increments `i`).
 
-    The net result is to execute `body`{.variable} with 1 in `i`, then
+    The net result is to execute `body` with 1 in `i`, then
     with 2 in `i`, and so on, stopping just before the repetition where
     `i` would equal `n`. If `n` is less than 1, the loop will execute
     the body zero times.

@@ -53,14 +53,14 @@ Here are the pragma operations supported in GNU C.
 `#pragma GCC dependency "file" [message]`\
 `_Pragma ("GCC dependency \"file\" [message]")`
 
--   Declares that the current source file depends on `file`{.variable},
+-   Declares that the current source file depends on `file`,
     so GNU C compares the file times and gives a warning if
-    `file`{.variable} is newer than the current source file.
+    `file` is newer than the current source file.
 
-    This directive searches for `file`{.variable} the way `#include`
+    This directive searches for `file` the way `#include`
     searches for a non-system header file.
 
-    If `message`{.variable} is given, the warning message includes that
+    If `message` is given, the warning message includes that
     text.
 
     Examples:
@@ -76,9 +76,9 @@ Here are the pragma operations supported in GNU C.
 `#pragma GCC poison identifiers`\
 `_Pragma ("GCC poison identifiers")`
 
--   Poisons the identifiers listed in `identifiers`{.variable}.
+-   Poisons the identifiers listed in `identifiers`.
 
-    This is useful to make sure all mention of `identifiers`{.variable}
+    This is useful to make sure all mention of `identifiers`
     has been deleted from the program and that no reference to them
     creeps back in. If any of those identifiers appears anywhere in the
     source after the directive, it causes a compilation error. For

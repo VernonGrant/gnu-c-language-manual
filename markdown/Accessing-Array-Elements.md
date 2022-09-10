@@ -8,7 +8,7 @@ Next: [Declaring an Array](Declaring-an-Array.md), Up:
 ### 16.1 Accessing Array Elements 
 
 
-If the variable `a` is an array, the `n`{.variable}th element of `a` is
+If the variable `a` is an array, the `n`th element of `a` is
 `a[n]`. You can use that expression to access an element's value or to
 assign to it:
 

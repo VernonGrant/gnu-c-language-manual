@@ -14,7 +14,7 @@ preprocessing directive `#include`. It has two variants:
 `#include <file>`
 
 -   This variant is used for system header files. It searches for a file
-    named `file`{.variable} in a standard list of system directories.
+    named `file` in a standard list of system directories.
     You can prepend directories to this list with the `-I`
     option (see [Invoking
     GCC](https://gcc.gnu.org/onlinedocs/gcc/Invocation.md#Invocation)
@@ -23,7 +23,7 @@ preprocessing directive `#include`. It has two variants:
 `#include "file"`
 
 -   This variant is used for header files of your own program. It
-    searches for a file named `file`{.variable} first in the directory
+    searches for a file named `file` first in the directory
     containing the current file, then in the quote directories, then the
     same directories used for `<file>`. You can prepend directories to
     the list of quote directories with the `-iquote` option.
@@ -33,7 +33,7 @@ brackets, behaves like a string constant in that comments are not
 recognized, and macro names are not expanded. Thus, `#include <x/*y>`
 specifies inclusion of a system header file named `x/*y`.
 
-However, if backslashes occur within `file`{.variable}, they are
+However, if backslashes occur within `file`, they are
 considered ordinary text characters, not escape characters: character
 escape sequences such as used in string constants in C are not
 meaningful here. Thus, `#include "x\n\\y"` specifies a filename

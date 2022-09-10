@@ -24,9 +24,9 @@ libdir/target/include
 The list may be different in some operating systems. Other directories
 are added for C++.
 
-In the above, `target`{.variable} is the canonical name of the system
+In the above, `target` is the canonical name of the system
 GCC was configured to compile code for; often but not always the same as
-the canonical name of the system it runs on. `version`{.variable} is the
+the canonical name of the system it runs on. `version` is the
 version of GCC in use.
 
 You can add to this list with the `-Idir` command-line option.
