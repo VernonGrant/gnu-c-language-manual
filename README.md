@@ -7,8 +7,8 @@ available changes at the
 if you find any mistakes please consider opening an issue, so I can pass them
 on.
 
-### [START READING HERE!](./markdown/index.md)
+### [START READING HERE!](https://github.com/VernonGrant/gnu-c-language-manual/blob/main/markdown/index.md)
 
 Please consider supporting the [Free Software Foundation](https://www.fsf.org/).
 
-![Free Software Foundation](./img/logo-fsf.org-tiny.png)
+![Free Software Foundation](https://raw.githubusercontent.com/VernonGrant/gnu-c-language-manual/main/img/logo-fsf.org-tiny.png)
