@@ -1,6 +1,6 @@
 # GNU C Language Manual
 
-This is a mirror of **Ritchard Stalman's GNU C Language Intro and Reference**
+This is a mirror of **Ritchard Stallman's GNU C Language Intro and Reference**
 converted to **Markdown**. It gets updated every two weeks or so, if there's
 available changes at the
 [repository](https://git.savannah.nongnu.org/cgit/c-intro-and-ref.git/). Also,
