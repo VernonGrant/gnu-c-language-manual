@@ -10,6 +10,8 @@ to understand. Please consider opening an issue, so I can pass them on.
 ### [START READING](https://github.com/VernonGrant/gnu-c-language-manual/blob/main/markdown/index.md)
 ### [DOWNLOAD PDF](https://github.com/VernonGrant/gnu-c-language-manual/raw/main/gnu-c-language-manual.pdf)
 
-Please consider supporting the [Free Software Foundation](https://www.fsf.org/).
+Please consider supporting the [Free Software Foundation](https://www.fsf.org/)
+and [Richard Stallman's](https://stallmansupport.org/index.html) fight to
+normalize truth, reason and dialogue.
 
 ![Free Software Foundation](https://raw.githubusercontent.com/VernonGrant/gnu-c-language-manual/main/img/logo-fsf.org-tiny.png)
