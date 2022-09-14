@@ -43,5 +43,20 @@ Session](https://sourceware.org/gdb/current/onlinedocs/gdb/Sample-Session.md#Sam
 in Debugging with GDB) so you can run and debug the executable program
 `fib1`.
 
+Richard Stallman's advice, from personal experience, is to turn to the
+debugger as soon as you can reproduce the problem. Don't try to avoid it
+by using other methods instead---occasionally they are shortcuts, but
+usually they waste an unbounded amount of time. With the debugger, you
+will surely find the bug in a reasonable time; overall, you will get
+your work done faster. The sooner you get serious and start the
+debugger, the sooner you are likely to find the bug.
+
 See [Compilation](Compilation.md), for an introduction to compiling
 more complex programs which consist of more than one source file.
+
+------------------------------------------------------------------------
+
+Previous: [Complete Program, Line by
+Line](Complete-Line_002dby_002dLine.md), Up: [A Complete
+Program](Complete-Program.md)  
+[Contents](index.md#SEC_Contents "Table of contents")  

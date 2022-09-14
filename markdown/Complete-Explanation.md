@@ -39,7 +39,11 @@ See [Returning Values from `main`](Values-from-main.md).
 
 
 The simplest way to print text in C is by calling the `printf` function,
-so here we explain what that does.
+so here we explain very briefly what that function does. For a full
+explanation of `printf` and the other standard I/O functions, see [The
+GNU C
+Library](https://www.gnu.org/software/libc/manual/html_node/I_002fO-on-Streams.md#I_002fO-on-Streams)
+in The GNU C Library Reference Manual.
 
 
 The first argument to `printf` is a *string constant* (see [String
@@ -75,11 +79,6 @@ Don't worry about header files for now; we'll explain them later in
 The first argument of `printf` does not have to be a string constant; it
 can be any string (see [Strings](Strings.md)). However, using a
 constant is the most common case.
-
-To learn more about `printf` and other facilities of the C library, see
-[The GNU C
-Library](https://www.gnu.org/software/libc/manual/html_node/index.md#Top)
-in The GNU C Library Reference Manual.
 
 ------------------------------------------------------------------------
 

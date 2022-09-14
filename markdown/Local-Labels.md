@@ -79,7 +79,7 @@ and Declarations in Expressions](Statement-Exprs.md)):
 
 Ordinary labels are visible throughout the function where they are
 defined, and only in that function. However, explicitly declared local
-labels of a block are visible in nested functions declared within that
+labels of a block are visible in nested function definitions inside that
 block. See [Nested Functions](Nested-Functions.md), for details.
 
 See [`goto` Statement and Labels](goto-Statement.md).

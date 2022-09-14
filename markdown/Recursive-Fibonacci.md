@@ -56,6 +56,12 @@ This very simple program illustrates several features of C:
     important---they provide background information so others can
     understand the code more quickly. See [Comments](Comments.md).
 
+    In this manual, we present comment text in the variable-width
+    typeface used for the text of the chapters, not in the fixed-width
+    typeface used for the rest of the code. That is to make comments
+    easier to read. This distinction of typeface does not exist in a
+    real file of C source code.
+
 -   Two kinds of statements, the `return` statement and the
     `if`...`else` statement. See [Statements](Statements.md).
 
@@ -63,8 +69,8 @@ This very simple program illustrates several features of C:
     *recursive call*. These are valid in C, and quite common.
 
     The `fib` function would not be useful if it didn't return. Thus,
-    recursive definitions, to be of any use, must avoid infinite
-    recursion.
+    recursive definitions, to be of any use, must avoid *infinite
+    recursion*.
 
     This function definition prevents infinite recursion by specially
     handling the case where `n` is two or less. Thus the maximum depth

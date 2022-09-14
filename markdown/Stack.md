@@ -9,11 +9,11 @@ Previous: [Example: Recursive Fibonacci](Recursive-Fibonacci.md), Up:
 ### 1.2 The Stack, And Stack Overflow 
 
 
-Recursion has a drawback: there are limits to how many nested function
-calls a program can make. In C, each function call allocates a block of
-memory which it uses until the call returns. C allocates these blocks
-consecutively within a large area of memory known as the *stack*, so we
-refer to the blocks as *stack frames*.
+Recursion has a drawback: there are limits to how many nested levels of
+function calls a program can make. In C, each function call allocates a
+block of memory which it uses until the call returns. C allocates these
+blocks consecutively within a large area of memory known as the *stack*,
+so we refer to the blocks as *stack frames*.
 
 The size of the stack is limited; if the program tries to use too much,
 that causes the program to fail because the stack is full. This is

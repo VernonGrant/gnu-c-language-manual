@@ -91,7 +91,7 @@ throughout this manual, including
 `gnu_inline`
 
 -   The `gnu_inline` attribute, in a function's declaration or
-    definition, specifies to handle the `inline` keywprd the way GNU C
+    definition, specifies to handle the `inline` keyword the way GNU C
     originally implemented it, many years before ISO C said anything
     about inlining. See [Inline Function
     Definitions](Inline-Function-Definitions.md).

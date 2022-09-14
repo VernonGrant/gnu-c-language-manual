@@ -17,7 +17,7 @@ If you understand basic concepts of programming but know nothing about
 C, you can read this manual sequentially from the beginning to learn the
 C language.
 
-If you are a beginner to programming, we recommend you first learn a
+If you are a beginner in programming, we recommend you first learn a
 language with automatic garbage collection and no explicit pointers,
 rather than starting with C. Good choices include Lisp, Scheme, Python
 and Java. C's explicit pointers mean that programmers must be careful to
@@ -59,14 +59,24 @@ on. Where this is the case, we say so.
 
 The C language provides no built-in facilities for performing such
 common operations as input/output, memory management, string
-manipulation, and the like. Instead, these facilities are defined in a
-standard library, which is automatically available in every C program.
-See [The GNU C
+manipulation, and the like. Instead, these facilities are provided by
+functions defined in the standard library, which is automatically
+available in every C program. See [The GNU C
 Library](https://www.gnu.org/software/libc/manual/html_node/index.md#Top)
 in The GNU C Library Reference Manual.
 
+GNU/Linux systems use the GNU C Library to do this job. It is itself a C
+program, so once you know C you can read its source code and see how its
+library functions do their jobs. Some fraction of the functions are
+implemented as *system calls*, which means they contain a special
+instruction that asks the system kernel (Linux) to do a specific task.
+To understand how those are implemented, you'd need to read Linux source
+code instead. Whether a library function is a system call is an internal
+implementation detail that makes no difference for how to call the
+function.
+
 This manual incorporates the former GNU C Preprocessor Manual, which was
-among the earliest GNU Manuals. It also uses some text from the earlier
+among the earliest GNU manuals. It also uses some text from the earlier
 GNU C Manual that was written by Trevis Rothwell and James Youngman.
 
 GNU C has many obscure features, each one either for historical

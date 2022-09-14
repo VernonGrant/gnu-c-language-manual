@@ -10,10 +10,11 @@ Features](Advanced-Definitions.md)  
 #### 22.7.3 Nested Functions 
 
 
-A *nested function* is a function defined inside another function. The
-nested function's name is local to the block where it is defined. For
-example, here we define a nested function named `square`, and call it
-twice:
+A *nested function* is a function defined inside another function. (The
+ability to do this indispensable for automatic translation of certain
+programming languages into C.) The nested function's name is local to
+the block where it is defined. For example, here we define a nested
+function named `square`, then call it twice:
 
 ``` C
 foo (double a, double b)
@@ -24,10 +25,10 @@ foo (double a, double b)
 }
 ```
 
-The nested function can access all the variables of the containing
-function that are visible at the point of its definition. This is called
-*lexical scoping*. For example, here we show a nested function that uses
-an inherited variable named `offset`:
+The nested function definition can access all the variables of the
+containing function that are visible at the point of its definition.
+This is called *lexical scoping*. For example, here we show a nested
+function that uses an inherited variable named `offset`:
 
 ``` C
 bar (int *array, int offset, int size)
