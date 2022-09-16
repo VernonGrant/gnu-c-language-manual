@@ -16,5 +16,5 @@ compute and get the value from. It looks like this:
 condition ? iftrue : iffalse
 ```
 
--   [Rules for Conditional Operator](Conditional-Rules.md)
+-   [Rules for the Conditional Operator](Conditional-Rules.md)
 -   [Conditional Operator Branches](Conditional-Branches.md)

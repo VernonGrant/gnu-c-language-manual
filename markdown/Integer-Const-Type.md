@@ -32,7 +32,8 @@ excludes first four types (non-`long long`).
 If the constant has '`u`' or '`U`' as a suffix, that
 excludes the signed types.
 
-Otherwise, if the constant is decimal, that excludes the unsigned types.
+Otherwise, if the constant is decimal (not binary, octal, or
+hexadecimal), that excludes the unsigned types.
 
 Here are some examples of the suffixes.
 

@@ -37,9 +37,10 @@ which uses the comma operator and passes just one argument (with value
 6).
 
 **Warning:** don't use the comma operator around an argument of a
-function unless it helps understand the code. When you do so, don't put
-part of another argument on the same line. Instead, add a line break to
-make the parentheses around the comma operator easier to see, like this.
+function unless it makes the code more readable. When you do so, don't
+put part of another argument on the same line. Instead, add a line break
+to make the parentheses around the comma operator easier to see, like
+this.
 
 ``` C
 foo ((mumble (x, y), frob (z)),

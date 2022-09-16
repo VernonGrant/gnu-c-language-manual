@@ -15,14 +15,14 @@ the character code of that character. For instance, `'a'` represents the
 character code for the letter '`a`': 97, that is.
 
 To put the '`'`' character (single quote) in the character
-constant, *quote* it with a backslash ('`\`'). This character
-constant looks like `'\''`. This sort of sequence, starting with
-'`\`', is called an *escape sequence*---the backslash character
-here functions as a kind of *escape character*.
+constant, *escape* it with a backslash ('`\`'). This character
+constant looks like `'\''`. The backslash character here functions as an
+*escape character*, and such a sequence, starting with '`\`',
+is called an *escape sequence*.
 
 To put the '`\`' character (backslash) in the character
-constant, quote it likewise with '`\`' (another backslash).
-This character constant looks like `'\\'`.
+constant, escape it with '`\`' (another backslash). This
+character constant looks like `'\\'`.
 
 
 Here are all the escape sequences that represent specific characters in
@@ -39,13 +39,15 @@ ASCII character codes, as decimal numbers.
 '\r' ⇒ 13      /* carriage return, RET, CTRL-m */
 '\e' ⇒ 27      /* escape character, ESC, CTRL-[ */
 '\\' ⇒ 92      /* backslash character, \ */
-'\'' ⇒ 39      /* singlequote character, ' */
-'\"' ⇒ 34      /* doublequote character, " */
+'\'' ⇒ 39      /* single quote character, ' */
+'\"' ⇒ 34      /* double quote character, " */
 '\?' ⇒ 63      /* question mark, ? */
 ```
 
 '`\e`' is a GNU C extension; to stick to standard C, write
-'`\33`'.
+'`\33`'. (The number after '`backslash`' is octal.) To
+specify a character constant using decimal, use a cast; for instance,
+`(unsigned char) 27`.
 
 You can also write octal and hex character codes as
 '`\octalcode`' or '`\xhexcode`'. Decimal is not an

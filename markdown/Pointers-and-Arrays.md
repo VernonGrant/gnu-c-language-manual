@@ -1,5 +1,5 @@
-Next: [Pointer Arithmetic at Low
-Level](Pointer-Arithmetic-Low-Level.md), Previous: [Pointer
+Next: [Pointer Arithmetic at
+Low-Level](Low_002dLevel-Pointer-Arithmetic.md), Previous: [Pointer
 Arithmetic](Pointer-Arithmetic.md), Up: [Pointers](Pointers.md)  
 [Contents](index.md#SEC_Contents "Table of contents")  
 
@@ -22,25 +22,25 @@ in C. `a[b]` means, by definition, `*(a + b)`. This definition uses
 pointer and the other an integer; it does not matter which comes first.
 
 Since indexing with square brackets is defined in terms of addition and
-dereference, that too is symmetrical. Thus, you can write `3[array]` and
-it is equivalent to `array[3]`. However, it would be foolish to write
-`3[array]`, since it has no advantage and could confuse people who read
-the code.
+dereferencing, that too is symmetrical. Thus, you can write `3[array]`
+and it is equivalent to `array[3]`. However, it would be foolish to
+write `3[array]`, since it has no advantage and could confuse people who
+read the code.
 
 It may seem like a discrepancy that the definition `*(a + b)` requires a
-pointer, but `array[3]` uses an array value instead. Why is this valid?
-The name of the array, when used by itself as an expression (other than
-in `sizeof`), stands for a pointer to the arrays's zeroth element. Thus,
-`array + 3` converts `array` implicitly to `&array[0]`, and the result
-is a pointer to element 3, equivalent to `&array[3]`.
+pointer, while `array[3]` uses an array value instead. Why is this
+valid? The name of the array, when used by itself as an expression
+(other than in `sizeof`), stands for a pointer to the array's zeroth
+element. Thus, `array + 3` converts `array` implicitly to `&array[0]`,
+and the result is a pointer to element 3, equivalent to `&array[3]`.
 
-Since square brackets are defined in terms of such addition, `array[3]`
-first converts `array` to a pointer. That's why it works to use an array
-directly in that construct.
+Since square brackets are defined in terms of such an addition,
+`array[3]` first converts `array` to a pointer. That's why it works to
+use an array directly in that construct.
 
 ------------------------------------------------------------------------
 
-Next: [Pointer Arithmetic at Low
-Level](Pointer-Arithmetic-Low-Level.md), Previous: [Pointer
+Next: [Pointer Arithmetic at
+Low-Level](Low_002dLevel-Pointer-Arithmetic.md), Previous: [Pointer
 Arithmetic](Pointer-Arithmetic.md), Up: [Pointers](Pointers.md)  
 [Contents](index.md#SEC_Contents "Table of contents")  

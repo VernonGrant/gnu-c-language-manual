@@ -135,8 +135,10 @@ eps_pos = nextafter (x, +inf() - x);
 In such cases, if `x` is Infinity, then *the `nextafter`
 functions return `y` if `x` equals
 `y`*. Our two assignments then produce
-`+0x1.fffffffffffffp+1023` (about 1.798e+308) for `eps_neg`
-and Infinity for `eps_pos`. Thus, the call
+`+0x1.fffffffffffffp+1023` (that is a hexadecimal floating point
+constant and its value is around 1.798e+308; see [Floating-Point
+Constants](Floating-Constants.md)) for `eps_neg`, and
+Infinity for `eps_pos`. Thus, the call
 `nextafter (INFINITY, -INFINITY)` can be used to find the largest
 representable finite number, and with the call `nextafter (0.0, 1.0)`,
 the smallest representable number (here, `0x1p-1074` (about 4.491e-324),

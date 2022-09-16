@@ -9,12 +9,12 @@ Execution](Order-of-Execution.md)  
 ### 10.4 Postincrement and Ordering 
 
 
-Ordering requirements are loose with the postincrement and postdecrement
+The ordering requirements for the postincrement and postdecrement
 operations (see [Postincrement and
-Postdecrement](Postincrement_002fPostdecrement.md)), which specify
-side effects to happen "a little later." They must happen before the
-next sequence point, but that still leaves room for various meanings. In
-this expression,
+Postdecrement](Postincrement_002fPostdecrement.md)) are loose: those
+side effects must happen "a little later," before the next sequence
+point. That still leaves room for various orders that give different
+results. In this expression,
 
 ``` C
 z = x++ - foo ()
@@ -30,9 +30,14 @@ In this perverse expression,
 x = x++
 ```
 
-`x` will certainly be incremented but the incremented value may not
-stick. If the incrementation of `x` happens after the assignment to `x`,
-the incremented value will remain in place. But if the incrementation
-happens first, the assignment will overwrite that with the
-not-yet-incremented value, so the expression as a whole will leave `x`
-unchanged.
+`x` will certainly be incremented but the incremented value may be
+replaced with the old value. That's because the incrementation and the
+assignment may occur in either oder. If the incrementation of `x` occurs
+after the assignment to `x`, the incremented value will remain in place.
+But if the incrementation happens first, the assignment will put the
+not-yet-incremented value back into `x`, so the expression as a whole
+will leave `x` unchanged.
+
+The conclusion: **avoid such expressions**. Take care, when you use
+postincrement and postdecrement, that the specific expression you use is
+not ambiguous as to order of execution.

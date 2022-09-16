@@ -29,11 +29,11 @@ there is little variation; you can rely on the table given previously
 
 To be completely sure of the size of an integer type, use the types
 `int16_t`, `int32_t` and `int64_t`. Their corresponding unsigned types
-add '`u`' at the front. To define these, include the header
-file `stdint.h`.
+add '`u`' at the front: `uint16_t`, `uint32_t` and `uint64_t`.
+To define all these types, include the header file `stdint.h`.
 
-The GNU C Compiler compiles for some embedded controllers that use two
-bytes for `int`. On some, `int` is just one "byte," and so is
+The GNU C Compiler can compile for some embedded controllers that use
+two bytes for `int`. On some, `int` is just one "byte," and so is
 `short int`---but that "byte" may contain 16 bits or even 32 bits. These
 processors can't support an ordinary operating system (they may have
 their own specialized operating systems), and most C programs do not try

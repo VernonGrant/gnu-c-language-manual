@@ -12,9 +12,9 @@ Arithmetic operators in C attempt to be as similar as possible to the
 abstract arithmetic operations, but it is impossible to do this
 perfectly. Numbers in a computer have a finite range of possible values,
 and non-integer values have a limit on their possible accuracy.
-Nonetheless, in most cases you will encounter no surprises in using
-'`+`' for addition, '`-`' for subtraction, and
-'`*`' for multiplication.
+Nonetheless, except when results are out of range, you will encounter no
+surprises in using '`+`' for addition, '`-`' for
+subtraction, and '`*`' for multiplication.
 
 Each C operator has a *precedence*, which is its rank in the grammatical
 order of the various operators. The operators with the highest

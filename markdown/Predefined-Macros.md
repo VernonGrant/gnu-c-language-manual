@@ -128,7 +128,7 @@ The rest of the predefined macros are GNU C extensions.
 `__COUNTER__`
 
 -   This macro expands to sequential integral values starting from 0. In
-    other words, each time the program uses this acro, it generates the
+    other words, each time the program uses this macro, it generates the
     next successive integer. This, with the `##` operator, provides a
     convenient means for macros to generate unique identifiers.
 

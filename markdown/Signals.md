@@ -31,7 +31,7 @@ seen several such error conditions through this manual:
 `SIGBUS`
 
 -   This signal is generated when an invalid pointer is dereferenced,
-    typically the result of dereferencing an uninintalized pointer. It
+    typically the result of dereferencing an uninitialized pointer. It
     is similar to `SIGSEGV`, except that `SIGSEGV` indicates invalid
     access to valid memory, while `SIGBUS` indicates an attempt to
     access an invalid address.

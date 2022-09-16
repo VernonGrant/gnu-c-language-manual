@@ -33,18 +33,18 @@ important material about computer arithmetic:
     binary and decimal floating point. It includes a substantial portion
     of the functions described in the famous NIST Handbook of
     Mathematical Functions, Cambridge (2018), ISBN 0-521-19225-0. See
-    <http://www.math.utah.edu/pub/mathcw> for compilers and libraries.
+    <https://www.math.utah.edu/pub/mathcw> for compilers and libraries.
 -   William D. Clinger, How to Read Floating Point Numbers Accurately,
     ACM SIGPLAN Notices **25**(6) 92--101 (June 1990),
     <https://doi.org/10.1145/93548.93557>. See also the papers by Steele
     & White.
 -   William D. Clinger, Retrospective: How to read floating point
     numbers accurately, ACM SIGPLAN Notices **39**(4) 360--371 (April
-    2004), <http://doi.acm.org/10.1145/989393.989430>. Reprint of 1990
+    2004), <https://doi.acm.org/10.1145/989393.989430>. Reprint of 1990
     paper, with additional commentary.
 -   I. Bennett Goldberg, 27 Bits Are Not Enough For 8-Digit Accuracy,
     Communications of the ACM **10**(2) 105--106 (February 1967),
-    <http://doi.acm.org/10.1145/363067.363112>. This paper, and its
+    <https://doi.acm.org/10.1145/363067.363112>. This paper, and its
     companions by David Matula, address the base-conversion problem, and
     show that the naive formulas are wrong by one or two digits.
 -   David Goldberg, What Every Computer Scientist Should Know About
@@ -56,7 +56,7 @@ important material about computer arithmetic:
     time to time.
 -   Norbert Juffa and Nelson H. F. Beebe, A Bibliography of Publications
     on Floating-Point Arithmetic,
-    <http://www.math.utah.edu/pub/tex/bib/fparith.bib>. This is the
+    <https://www.math.utah.edu/pub/tex/bib/fparith.bib>. This is the
     largest known bibliography of publications about floating-point, and
     also integer, arithmetic. It is actively maintained, and in mid
     2019, contains more than 6400 references to original research
@@ -69,7 +69,7 @@ important material about computer arithmetic:
     other important related papers on the base-conversion problem.
 -   William Kahan, Branch Cuts for Complex Elementary Functions, or Much
     Ado About Nothing's Sign Bit, (1987),
-    <http://people.freebsd.org/~das/kahan86branch.pdf>. This Web
+    <https://people.freebsd.org/~das/kahan86branch.pdf>. This Web
     document about the fine points of complex arithmetic also appears in
     the volume edited by A. Iserles and M. J. D. Powell, The State of
     the Art in Numerical Analysis: Proceedings of the Joint IMA/SIAM
@@ -115,15 +115,15 @@ important material about computer arithmetic:
 -   Michael Overton, Numerical Computing with IEEE Floating Point
     Arithmetic, Including One Theorem, One Rule of Thumb, and One
     Hundred and One Exercises, SIAM (2001), ISBN 0-89871-482-6 (xiv +
-    104 pages), <http://www.ec-securehost.com/SIAM/ot76.md>. This is a
-    small volume that can be covered in a few hours.
+    104 pages), <https://www.ec-securehost.com/SIAM/ot76.md>. This is
+    a small volume that can be covered in a few hours.
 -   Guy L. Steele Jr. and Jon L. White, How to Print Floating-Point
     Numbers Accurately, ACM SIGPLAN Notices **25**(6) 112--126 (June
     1990), <https://doi.org/10.1145/93548.93559>. See also the papers by
     Clinger.
 -   Guy L. Steele Jr. and Jon L. White, Retrospective: How to Print
     Floating-Point Numbers Accurately, ACM SIGPLAN Notices **39**(4)
-    372--389 (April 2004), <http://doi.acm.org/10.1145/989393.989431>.
+    372--389 (April 2004), <https://doi.acm.org/10.1145/989393.989431>.
     Reprint of 1990 paper, with additional commentary.
 -   Pat H. Sterbenz, Floating Point Computation, Prentice-Hall (1974),
     ISBN 0-13-322495-3 (xiv + 316 pages). This often-cited book provides

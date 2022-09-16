@@ -97,10 +97,10 @@ subtract_pointers ()
 }
 ```
 
-The addition operation does not know where arrays are. All it does is
-add the integer (multiplied by object size) to the value of the pointer.
-When the initial pointer and the result point into a single array, the
-result is well-defined.
+The addition operation does not know where arrays begin or end in
+memory. All it does is add the integer (multiplied by target object
+size) to the numeric value of the pointer. When the initial pointer and
+the result point into the same array, the result is well-defined.
 
 **Warning:** Only experts should do pointer arithmetic involving
 pointers into different memory objects.
@@ -110,14 +110,16 @@ necessary (see [Integer Data Types](Integer-Types.md)). The clean way
 to declare it is to use the typedef name `ptrdiff_t` defined in the file
 `stddef.h`.
 
-This definition of pointer subtraction is consistent with
-pointer-integer addition, in that `(p3 - p1) + p1` equals `p3`, as in
-ordinary algebra.
+C defines pointer subtraction to be consistent with pointer-integer
+addition, so that `(p3 - p1) + p1` equals `p3`, as in ordinary algebra.
+Pointer subtraction works by subtracting `p1`'s numeric value from
+`p3`'s, and dividing by target object size. The two pointer arguments
+should point into the same array.
 
 In standard C, addition and subtraction are not allowed on `void *`,
 since the target type's size is not defined in that case. Likewise, they
 are not allowed on pointers to function types. However, these operations
-work in GNU C, and the "size of the target type" is taken as 1.
+work in GNU C, and the "size of the target type" is taken as 1 byte.
 
 ------------------------------------------------------------------------
 

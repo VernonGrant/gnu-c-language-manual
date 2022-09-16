@@ -14,8 +14,8 @@ both positive and negative numbers, in a range spread almost equally on
 both sides of zero.
 
 Aside from signedness, the integer data types vary in size: how many
-bytes long they are. The size determines how many different integer
-values the type can hold.
+bytes long they are. The size determines the range of integer values the
+type can hold.
 
 Here's a list of the signed integer data types, with the sizes they have
 on most computers. Each has a corresponding unsigned type; see [Signed
@@ -24,8 +24,8 @@ and Unsigned Types](Signed-and-Unsigned-Types.md).
 `signed char`
 
 -   One byte (8 bits). This integer type is used mainly for integers
-    that represent characters, as part of arrays or other data
-    structures.
+    that represent characters, usually as elements of arrays or fields
+    of other data structures.
 
 `short`\
 `short int`

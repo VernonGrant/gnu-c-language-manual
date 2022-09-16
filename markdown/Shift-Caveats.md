@@ -9,12 +9,12 @@ Operations](Shift-Operations.md)  
 #### 6.7.2 Caveats for Shift Operations 
 
 **Warning:** If the shift count is greater than or equal to the width in
-bits of the first operand, the results are machine-dependent. Logically
-speaking, the "correct" value would be either -1 (for right shift of a
-negative number) or 0 (in all other cases), but what it really generates
-is whatever the machine's shift instruction does in that case. So unless
-you can prove that the second operand is not too large, write code to
-check it at run time.
+bits of the promoted first operand, the results are machine-dependent.
+Logically speaking, the "correct" value would be either -1 (for right
+shift of a negative number) or 0 (in all other cases), but the actual
+result is whatever the machine's shift instruction does in that case. So
+unless you can prove that the second operand is not too large, write
+code to check it at run time.
 
 **Warning:** Never rely on how the shift operators relate in precedence
 to other arithmetic binary operators. Programmers don't remember these

@@ -25,8 +25,8 @@ The left operand is the value to be shifted, and the right operand says
 how many bits to shift it (the *shift count*). The left operand is
 promoted (see [Operand Promotions](Operand-Promotions.md)), so
 shifting never operates on a narrow integer type; it's always either
-`int` or wider. The value of the shift operator has the same type as the
-promoted left operand.
+`int` or wider. The result of the shift operation has the same type as
+the promoted left operand.
 
 -   [Shifting Makes New Bits](Bits-Shifted-In.md)
 -   [Caveats for Shift Operations](Shift-Caveats.md)

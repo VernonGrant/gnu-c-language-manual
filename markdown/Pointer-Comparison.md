@@ -41,8 +41,8 @@ If one of the operands is `void *` (see [Void
 Pointers](Void-Pointers.md)) and the other is another pointer type,
 the comparison operator converts the `void *` pointer to the other type
 so as to compare them. (In standard C, this is not allowed if the other
-type is a function pointer type, but that works in GNU C.)
+type is a function pointer type, but it works in GNU C.)
 
 Comparison operators also allow comparing the integer 0 with a pointer
-value. Thus works by converting 0 to a null pointer of the same type as
+value. This works by converting 0 to a null pointer of the same type as
 the other operand.

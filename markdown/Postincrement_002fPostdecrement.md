@@ -12,7 +12,7 @@ Expressions](Assignment-Expressions.md)  
 
 Using '`++`' or '`--`' *after* an lvalue does
 something peculiar: it gets the value directly out of the lvalue and
-*then* increments or decrement it. Thus, the value of `i++` is the same
+*then* increments or decrements it. Thus, the value of `i++` is the same
 as the value of `i`, but `i++` also increments `i` "a little later."
 This is called *postincrement* or *postdecrement*.
 

@@ -30,7 +30,7 @@ later. Here's a simple example to illustrate the practice:
   i = 5;
 
   …
-  
+
   return *ptr;   /* Returns 5, fetched from i.  */
 }
 ```

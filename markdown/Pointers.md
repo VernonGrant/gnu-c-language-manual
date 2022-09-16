@@ -8,12 +8,17 @@ Size](Type-Size.md), Up: [GNU C Manual](index.md)  
 ## 14 Pointers 
 
 
-Among high-level languages, C is rather low level, close to the machine.
+Among high-level languages, C is rather low-level, close to the machine.
 This is mainly because it has explicit *pointers*. A pointer value is
 the numeric address of data in memory. The type of data to be found at
-that address is specified by the data type of the pointer itself. The
-unary operator '`*`' gets the data that a pointer points
-to---this is called *dereferencing the pointer*.
+that address is specified by the data type of the pointer itself.
+Nothing in C can determine the "correct" data type of data in memory; it
+can only blindly follow the data type of the pointer you use to access
+the data.
+
+The unary operator '`*`' gets the data that a pointer points
+to---this is called *dereferencing the pointer*. Its value always has
+the type that the pointer points to.
 
 C also allows pointers to functions, but since there are some
 differences in how they work, we treat them later. See [Function
@@ -30,7 +35,8 @@ Pointers](Function-Pointers.md).
 -   [Pointer Comparison](Pointer-Comparison.md)
 -   [Pointer Arithmetic](Pointer-Arithmetic.md)
 -   [Pointers and Arrays](Pointers-and-Arrays.md)
--   [Pointer Arithmetic at Low Level](Pointer-Arithmetic-Low-Level.md)
+-   [Pointer Arithmetic at
+    Low-Level](Low_002dLevel-Pointer-Arithmetic.md)
 -   [Pointer Increment and
     Decrement](Pointer-Increment_002fDecrement.md)
 -   [Drawbacks of Pointer Arithmetic](Pointer-Arithmetic-Drawbacks.md)

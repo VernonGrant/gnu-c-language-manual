@@ -6,7 +6,7 @@ and Arrays](Pointers-and-Arrays.md), Up: [Pointers](Pointers.md)  
 ------------------------------------------------------------------------
 
 
-### 14.12 Pointer Arithmetic at Low Level 
+### 14.12 Pointer Arithmetic at Low-Level 
 
 
 The behavior of pointer arithmetic is theoretically defined only when
@@ -20,8 +20,8 @@ Adding pointer `p` to integer `i` treats
 it `pint`. It treats `i` as a number of elements
 of the type that `p` points to. These elements' sizes add up
 to `i * sizeof (*p)`. So the sum, as an integer, is
-`pint + i * sizeof (*p)`. This value is reinterpreted as a pointer like
-`p`.
+`pint + i * sizeof (*p)`. This value is reinterpreted as a pointer of
+the same type as `p`.
 
 If the starting pointer value `p` and the result do not point
 at parts of the same object, the operation is not officially legitimate,

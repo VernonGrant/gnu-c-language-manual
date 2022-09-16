@@ -8,10 +8,11 @@ Constants](Floating-Constants.md), Up: [Constants](Constants.md)  
 ### 12.4 Imaginary Constants 
 
 
-A complex number consists of a real part plus an imaginary part. (Either
-or both parts may be zero.) This section explains how to write numeric
-constants with imaginary values. By adding these to ordinary real-valued
-numeric constants, we can make constants with complex values.
+A complex number consists of a real part plus an imaginary part. (You
+may omit one part if it is zero.) This section explains how to write
+numeric constants with imaginary values. By adding these to ordinary
+real-valued numeric constants, we can make constants with complex
+values.
 
 The simple way to write an imaginary-number constant is to attach the
 suffix '`i`' or '`I`', or '`j`' or
@@ -23,7 +24,7 @@ four alternative suffix letters are all equivalent.
 The other way to write an imaginary constant is to multiply a real
 constant by `_Complex_I`, which represents the imaginary number i.
 Standard C doesn't support suffixing with '`i`' or
-'`j`', so this clunky way is needed.
+'`j`', so this clunky method is needed.
 
 To write a complex constant with a nonzero real part and a nonzero
 imaginary part, write the two separately and add them, like this:

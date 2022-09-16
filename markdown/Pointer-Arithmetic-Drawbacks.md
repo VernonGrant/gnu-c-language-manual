@@ -17,10 +17,10 @@ However, if you unintentionally adjust a pointer across the bounds of
 the object and into some other object, the system has no way to detect
 this error.
 
-A bug which does that can easily result in clobbering part of another
-object. For example, with `array[-1]` you can read or write the
-nonexistent element before the beginning of an array---probably part of
-some other data.
+A bug which does that can easily result in clobbering (overwriting) part
+of another object. For example, with `array[-1]` you can read or write
+the nonexistent element before the beginning of an array---probably part
+of some other data.
 
 Combining pointer arithmetic with casts between pointer types, you can
 create a pointer that fails to be properly aligned for its type. For

@@ -17,7 +17,8 @@ In particular, if the value is really a character, you should declare
 the variable `int`. Not `char`! Using that narrow type can force the
 compiler to truncate values for conversion, which is a waste.
 Furthermore, some functions return either a character value, or -1 for
-"no character." Using `int` keeps those values distinct.
+"no character." Using `int` makes it possible to distinguish -1 from a
+character by sign.
 
 The narrow integer types are useful as parts of other objects, such as
 arrays and structures. Compare these array declarations, whose sizes on

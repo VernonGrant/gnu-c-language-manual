@@ -13,11 +13,13 @@ Next: [Order of Execution](Order-of-Execution.md), Previous:
 one on the right.
 
 All the binary operators in C are syntactically left-associative. This
-means that `a op b op c` means `(a op b) op c`. However, you should only
-write repeated operators without parentheses using '`+`',
-'`-`', '`*`' and '`/`', because those cases
-are clear from algebra. So it is ok to write `a + b + c` or `a - b - c`,
-but never `a == b == c` or `a % b % c`.
+means that `a op b op c` means `(a op b) op c`. However, the only
+operators you should repeat in this way without parentheses are
+'`+`', '`-`', '`*`' and '`/`',
+because those cases are clear from algebra. So it is OK to write
+`a + b + c` or `a - b - c`, but never `a == b == c` or `a % b % c`. For
+those operators, use explicit parentheses to show how the operations
+nest.
 
 Each C operator has a *precedence*, which is its rank in the grammatical
 order of the various operators. The operators with the highest

@@ -21,13 +21,13 @@ struct list
 inline struct list *
 list_first (struct list *p)
 {
-  return p->first;  
+  return p->first;
 }
 
 inline struct list *
 list_second (struct list *p)
 {
-  return p->second;  
+  return p->second;
 }
 ```
 

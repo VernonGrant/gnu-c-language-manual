@@ -72,7 +72,7 @@ extract_int_or_double (void *ptr, bool its_an_int)
 {
   if (its_an_int)
     handle_an_int (*(int *)ptr);
-  else 
+  else
     handle_a_double (*(double *)ptr);
 }
 ```

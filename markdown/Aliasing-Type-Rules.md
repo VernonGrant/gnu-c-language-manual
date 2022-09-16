@@ -70,7 +70,7 @@ only these types:
 -   A type compatible with `t`. See [Compatible
     Types](Compatible-Types.md).
 -   A signed or unsigned version of one of the above.
--   A qualifed version of one of the above. See [Type
+-   A qualified version of one of the above. See [Type
     Qualifiers](Type-Qualifiers.md).
 -   An array, structure (see [Structures](Structures.md)), or union
     type (`Unions`) that contains one of the above, either directly as a

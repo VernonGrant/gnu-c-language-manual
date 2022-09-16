@@ -37,8 +37,8 @@ where they occur:
 
 The ordering imposed by a sequence point applies locally to a limited
 range of code, as stated above in each case. For instance, the ordering
-imposed by the comma operator does not apply to code outside that comma
-operator. Thus, in this code,
+imposed by the comma operator does not apply to code outside the
+operands of that comma operator. Thus, in this code,
 
 ``` C
 (x = 5, foo (x)) + x * x

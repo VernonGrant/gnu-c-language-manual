@@ -11,7 +11,9 @@ Types](Primitive-Types.md)  
 
 *Floating point* is the binary analogue of scientific notation:
 internally it represents a number as a fraction and a binary exponent;
-the value is that fraction multiplied by the specified power of 2.
+the value is that fraction multiplied by the specified power of 2. (The
+C standard nominally permits other bases, but in GNU C the base is
+always 2.)
 
 For instance, to represent 6, the fraction would be 0.75 and the
 exponent would be 3; together they stand for the value *0.75 \* 2^3^*,
@@ -22,8 +24,8 @@ exponent.
 
 These binary exponents are used by machine instructions. You can write a
 floating-point constant this way if you wish, using hexadecimal; but
-normally we write floating-point numbers in decimal. See [Floating-Point
-Constants](Floating-Constants.md).
+normally we write floating-point numbers in decimal (base 10). See
+[Floating-Point Constants](Floating-Constants.md).
 
 C has three floating-point data types:
 

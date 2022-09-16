@@ -22,7 +22,7 @@ for the arguments, the call converts `x` and 5 to `double`.
 
 The call conceptually dereferences the pointer `binary_op` to "get" the
 function it points to, and calls that function. If you wish, you can
-explicitly represent the derefence by writing the `*` operator:
+explicitly represent the dereference by writing the `*` operator:
 
 ``` C
 (*binary_op) (x, 5)

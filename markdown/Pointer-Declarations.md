@@ -40,6 +40,8 @@ Contrast the last one with this:
 double *aptrd[5];     /* Array of five pointers to double. */
 ```
 
-Because '`*`' has higher syntactic precedence than
-subscripting, you would subscript `aptrd` then dereference it.
-Therefore, it declares an array of pointers, not a pointer.
+Because '`*`' has lower syntactic precedence than subscripting,
+'`double *aptrd[5]`' means, "if you subscript `aptrd` by an
+integer less than 5, then dereference it, you get a `double`."
+Therefore, `*aptrd[5]` declares an array of pointers, not a pointer to
+an array.

@@ -1882,12 +1882,12 @@ Manual](index.md)  
 |                 | Files.md#inde |                 | der-Files.md) |
 |                 | x-header-file): |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-|                 | [hexademical    |                 | [Exact Floating |
+|                 | [hexadecimal    |                 | [Exact Floating |
 |                 | floating-point  |                 | Constants](     |
 |                 | constants](Exa  |                 | Exact-Floating- |
 |                 | ct-Floating-Con |                 | Constants.md) |
 |                 | stants.md#ind |                 |                 |
-|                 | ex-hexademical- |                 |                 |
+|                 | ex-hexadecimal- |                 |                 |
 |                 | floating_002dpo |                 |                 |
 |                 | int-constants): |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
@@ -2072,11 +2072,12 @@ Manual](index.md)  
 |                 | ks.md#index-i |                 |                 |
 |                 | nternal-block): |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-|                 | [`intpt         |                 | [Pointer        |
-|                 | r_t`](Pointer-A |                 | Arithmetic Low  |
-|                 | rithmetic-Low-L |                 | Level](Poin     |
-|                 | evel.md#index |                 | ter-Arithmetic- |
-|                 | -intptr_005ft): |                 | Low-Level.md) |
+|                 | [`intptr_t`     |                 | [Low-Level      |
+|                 | ](Low_002dLevel |                 | Pointer         |
+|                 | -Pointer-Arithm |                 | Arith           |
+|                 | etic.md#index |                 | metic](Low_002d |
+|                 | -intptr_005ft): |                 | Level-Pointer-A |
+|                 |                 |                 | rithmetic.md) |
 +-----------------+-----------------+-----------------+-----------------+
 |                 | [invalid        |                 | [Invalid        |
 |                 | optimizations   |                 | Optimization    |
@@ -2254,12 +2255,12 @@ Manual](index.md)  
 |                 | s.md#index-lo |                 | tatements.md) |
 |                 | op-statements): |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-|                 | [low level      |                 | [Pointer        |
-|                 | pointer         |                 | Arithmetic Low  |
-|                 | arithme         |                 | Level](Poin     |
-|                 | tic](Pointer-Ar |                 | ter-Arithmetic- |
-|                 | ithmetic-Low-Le |                 | Low-Level.md) |
-|                 | vel.md#index- |                 |                 |
+|                 | [low level      |                 | [Low-Level      |
+|                 | pointer         |                 | Pointer         |
+|                 | arithmetic]     |                 | Arith           |
+|                 | (Low_002dLevel- |                 | metic](Low_002d |
+|                 | Pointer-Arithme |                 | Level-Pointer-A |
+|                 | tic.md#index- |                 | rithmetic.md) |
 |                 | low-level-point |                 |                 |
 |                 | er-arithmetic): |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
@@ -2928,14 +2929,15 @@ Manual](index.md)  
 |                 | er-arithmetic_0 |                 |                 |
 |                 | 02c-drawbacks): |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-|                 | [pointer        |                 | [Pointer        |
-|                 | arithmetic, low |                 | Arithmetic Low  |
-|                 | level](         |                 | Level](Poin     |
-|                 | Pointer-Arithme |                 | ter-Arithmetic- |
-|                 | tic-Low-Level.h |                 | Low-Level.md) |
-|                 | tml#index-point |                 |                 |
-|                 | er-arithmetic_0 |                 |                 |
-|                 | 02c-low-level): |                 |                 |
+|                 | [pointer        |                 | [Low-Level      |
+|                 | arithmetic,     |                 | Pointer         |
+|                 | low-            |                 | Arith           |
+|                 | level](Low_002d |                 | metic](Low_002d |
+|                 | Level-Pointer-A |                 | Level-Pointer-A |
+|                 | rithmetic.md# |                 | rithmetic.md) |
+|                 | index-pointer-a |                 |                 |
+|                 | rithmetic_002c- |                 |                 |
+|                 | low_002dlevel): |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
 |                 | [pointer        |                 | [Pointer        |
 |                 | co              |                 | Compar          |

@@ -56,9 +56,9 @@ constant, we state here what type that pointer will be.
 Consecutive wide string constants of the same kind concatenate, just
 like ordinary string constants. A wide string constant concatenated with
 an ordinary string constant results in a wide string constant. You can't
-concatenate two wide string constants of different kinds. You also can't
-concatenate a wide string constant (of any kind) with a UTF-8 string
-constant.
+concatenate two wide string constants of different kinds. In addition,
+you can't concatenate a wide string constant (of any kind) with a UTF-8
+string constant.
 
 ------------------------------------------------------------------------
 

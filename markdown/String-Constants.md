@@ -19,8 +19,9 @@ need to be quoted.
 A string constant defines an array of characters which contains the
 specified characters followed by the null character (code 0). Using the
 string constant is equivalent to using the name of an array with those
-contents. In simple cases, the length in bytes of the string constant is
-one greater than the number of characters written in it.
+contents. In simple cases, where there are no backslash escape
+sequences, the length in bytes of the string constant is one greater
+than the number of characters written in it.
 
 As with any array in C, using the string constant in an expression
 converts the array to a pointer (see [Pointers](Pointers.md)) to the

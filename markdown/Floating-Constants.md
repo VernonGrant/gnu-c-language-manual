@@ -64,7 +64,7 @@ You can use exponents in hexadecimal floating constants, but since
 character '`p`' or '`P`' (for "power") indicates an
 exponent.
 
-The exponent in a hexadecimal floating constant is a possibly-signed
+The exponent in a hexadecimal floating constant is an optionally signed
 decimal integer that specifies a power of 2 (*not* 10 or 16) to multiply
 into the number.
 

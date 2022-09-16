@@ -10,8 +10,8 @@ Types](Primitive-Types.md)  
 
 Some C constructs require a way to designate a specific data type
 independent of any particular variable or expression which has that
-type. The way to do this is with a *type designator*. The constucts that
-need one include casts (see [Explicit Type
+type. The way to do this is with a *type designator*. The constructs
+that need one include casts (see [Explicit Type
 Conversion](Explicit-Type-Conversion.md)) and `sizeof` (see [Type
 Size](Type-Size.md)).
 

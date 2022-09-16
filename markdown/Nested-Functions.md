@@ -49,7 +49,7 @@ other declarations and statements in the block.
 The nested function's name is visible only within the parent block; the
 name's scope starts from its definition and continues to the end of the
 containing block. If the nested function's name is the same as the
-parent function's name, there wil be no way to refer to the parent
+parent function's name, there will be no way to refer to the parent
 function inside the scope of the name of the nested function.
 
 Using `extern` or `static` on a nested function definition is an error.

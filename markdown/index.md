@@ -182,7 +182,7 @@ Please report errors and suggestions to c-manual\@gnu.org.
         Assignments](Logicals-and-Assignments.md)
     -   [8.4 Conditional
         Expression](Conditional-Expression.md)
-        -   [8.4.1 Rules for Conditional
+        -   [8.4.1 Rules for the Conditional
             Operator](Conditional-Rules.md)
         -   [8.4.2 Conditional Operator
             Branches](Conditional-Branches.md)
@@ -278,8 +278,8 @@ Please report errors and suggestions to c-manual\@gnu.org.
         Arithmetic](Pointer-Arithmetic.md)
     -   [14.11 Pointers and
         Arrays](Pointers-and-Arrays.md)
-    -   [14.12 Pointer Arithmetic at Low
-        Level](Pointer-Arithmetic-Low-Level.md)
+    -   [14.12 Pointer Arithmetic at
+        Low-Level](Low_002dLevel-Pointer-Arithmetic.md)
     -   [14.13 Pointer Increment and
         Decrement](Pointer-Increment_002fDecrement.md)
     -   [14.14 Drawbacks of Pointer

@@ -5,7 +5,7 @@ Next: [Conditional Operator Branches](Conditional-Branches.md), Up:
 ------------------------------------------------------------------------
 
 
-#### 8.4.1 Rules for Conditional Operator 
+#### 8.4.1 Rules for the Conditional Operator 
 
 The first operand, `condition`, should be a value that can be
 compared with zero---a number or a pointer. If it is true (nonzero),

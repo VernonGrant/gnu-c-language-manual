@@ -1,5 +1,5 @@
-Previous: [Rules for Conditional Operator](Conditional-Rules.md), Up:
-[Conditional Expression](Conditional-Expression.md)  
+Previous: [Rules for the Conditional Operator](Conditional-Rules.md),
+Up: [Conditional Expression](Conditional-Expression.md)  
 [Contents](index.md#SEC_Contents "Table of contents")  
 
 ------------------------------------------------------------------------
@@ -53,16 +53,16 @@ next_element () ? : default_pointer
 ```
 
 is a way to advance the pointer and use its new value if it isn't null,
-but use `default_pointer` if that is null. We must not do it this way,
+but use `default_pointer` if that is null. We cannot do it this way,
 
 ``` C
 next_element () ? next_element () : default_pointer
 ```
 
-because it would advance the pointer a second time.
+because that would advance the pointer a second time.
 
 ------------------------------------------------------------------------
 
-Previous: [Rules for Conditional Operator](Conditional-Rules.md), Up:
-[Conditional Expression](Conditional-Expression.md)  
+Previous: [Rules for the Conditional Operator](Conditional-Rules.md),
+Up: [Conditional Expression](Conditional-Expression.md)  
 [Contents](index.md#SEC_Contents "Table of contents")  

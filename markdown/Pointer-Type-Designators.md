@@ -20,7 +20,9 @@ double (*)[5]   /* Pointer to double[5]. */
 ```
 
 Remember, to understand what type a designator stands for, imagine the
-variable name that would be in the declaration, and figure out what type
-it would declare that variable with. `double (*)[5]` can only come from
-`double (*variable)[5]`, so it's a pointer which, when dereferenced,
-gives an array of 5 `double`s.
+corresponding variable declaration with a variable name in it, and
+figure out what type that variable would have. Thus, the type designator
+`double (*)[5]` corresponds to the variable declaration
+`double (*variable)[5]`. That deciares a pointer variable which, when
+dereferenced, gives an array of 5 `double`s. So the type designator
+means, "pointer to an array of 5 `double`s."

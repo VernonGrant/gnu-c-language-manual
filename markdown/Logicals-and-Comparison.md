@@ -29,9 +29,10 @@ This is equivalent:
 if (r && x % r == 0)
 ```
 
-A truth value is simply a number, so `r` as a truth value tests whether
-it is nonzero. But `r`'s meaning is not a truth value---it is a number
-to divide by. So it is better style to write the explicit `!= 0`.
+A truth value is simply a number, so using `r` as a truth value tests
+whether it is nonzero. But `r`'s meaning as en expression is not a truth
+value---it is a number to divide by. So it is better style to write the
+explicit `!= 0`.
 
 Here's another equivalent way to write it:
 

@@ -41,6 +41,11 @@ In C, the usual convention is to give header files names that end with
 `.h`. It is most portable to use only letters, digits, dashes,
 and underscores in header file names, and at most one dot.
 
+The operation of including another source file isn't actually limited to
+the sort of code we put into header files. You can put any sort of C
+code into a separate file, then use `#include` to copy it virtually into
+other C source files. But that is a strange thing to do.
+
 -   [`#include` Syntax](include-Syntax.md)
 -   [`#include` Operation](include-Operation.md)
 -   [Search Path](Search-Path.md)

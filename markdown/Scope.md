@@ -99,7 +99,7 @@ foo (int x)
 ```
 
 This prints the value of `x` the function parameter, rather than the
-value of the file-scope variable `x`. However,
+value of the file-scope variable `x`.
 
 Labels (see [`goto` Statement and Labels](goto-Statement.md)) have
 *function* scope: each label is visible for the whole of the containing

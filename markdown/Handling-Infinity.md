@@ -19,7 +19,7 @@ the other.
 In GNU C, you can create a value of negative Infinity in software like
 this:
 
-``` verbatim
+``` C
 double x;
 
 x = -1.0 / 0.0;

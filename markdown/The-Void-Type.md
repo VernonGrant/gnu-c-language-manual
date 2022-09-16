@@ -28,4 +28,5 @@ print_if_positive (double x, double y)
 ```
 
 A `void`-returning function is comparable to what some other languages
-call a "procedure" instead of a "function."
+(for instance, Fortran and Pascal) call a "procedure" instead of a
+"function."

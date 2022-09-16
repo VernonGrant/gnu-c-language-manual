@@ -19,7 +19,7 @@ numbers; its range starts with zero and runs upward.
 
 The most basic integer types are `int`, which normally can hold numbers
 from -2,147,483,648 to 2,147,483,647, and `unsigned int`, which normally
-can hold numbers from 0 to 4,294.967,295. (This assumes `int` is 32 bits
+can hold numbers from 0 to 4,294,967,295. (This assumes `int` is 32 bits
 wide, always true for GNU C on real computers but not always on embedded
 controllers.) See [Integer Data Types](Integer-Types.md), for full
 information about integer types.

@@ -25,7 +25,7 @@ fib (int n)             /* Its name is fib;  */
   if (n <= 2)           /* If n is 1 or 2,  */
     return 1;           /*   make fib return 1.  */
   else                  /* otherwise, add the two previous  */
-                        /* fibonacci numbers.  */
+                        /* Fibonacci numbers.  */
     return fib (n - 1) + fib (n - 2);
 }
 

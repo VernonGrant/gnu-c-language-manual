@@ -1,6 +1,6 @@
 Next: [Drawbacks of Pointer
 Arithmetic](Pointer-Arithmetic-Drawbacks.md), Previous: [Pointer
-Arithmetic at Low Level](Pointer-Arithmetic-Low-Level.md), Up:
+Arithmetic at Low-Level](Low_002dLevel-Pointer-Arithmetic.md), Up:
 [Pointers](Pointers.md)  
 [Contents](index.md#SEC_Contents "Table of contents")  
 
@@ -14,7 +14,8 @@ The '`++`' operator adds 1 to a variable. We have seen it for
 integers (see [Increment and Decrement
 Operators](Increment_002fDecrement.md)), but it works for pointers
 too. For instance, suppose we have a series of positive integers,
-terminated by a zero, and we want to add them all up.
+terminated by a zero, and we want to add them up. Here is a simple way
+to step forward through the array by advancing a pointer.
 
 ``` C
 int
@@ -45,12 +46,12 @@ immediately exits the surrounding `for` statement.
 precedence over a prefix operator. Therefore, it dereferences `p`, and
 increments `p` afterwards. Incrementing a variable means adding 1 to it,
 as in `p = p + 1`. Since `p` is a pointer, adding 1 to it advances it by
-the width of the datum it points to---in this case, one `int`.
+the width of the datum it points to---in this case, `sizeof (int)`.
 Therefore, each iteration of the loop picks up the next integer from the
 series and puts it into `next`.
 
 This `for`-loop has no initialization expression since `p` and `sum` are
-already initialized, it has no end-test since the '`break;`'
+already initialized, has no end-test since the '`break;`'
 statement will exit it, and needs no expression to advance it since
 that's done within the loop by incrementing `p` and `sum`. Thus, those
 three expressions after `for` are left empty.
@@ -85,11 +86,11 @@ In this program, instead of advancing `p`, we advance `i` and add it to
 address to get the next integer.
 
 It makes no difference in this program whether we write `i++` or `++i`,
-because the value is not used. All that matters is the effect, to
-increment `i`.
+because the value *of that expression* is not used. We use it for its
+effect, to increment `i`.
 
 The '`--`' operator also works on pointers; it can be used to
-scan backwards through an array, like this:
+step backwards through an array, like this:
 
 ``` C
 int
@@ -116,6 +117,6 @@ run of zeros at the end.
 
 Next: [Drawbacks of Pointer
 Arithmetic](Pointer-Arithmetic-Drawbacks.md), Previous: [Pointer
-Arithmetic at Low Level](Pointer-Arithmetic-Low-Level.md), Up:
+Arithmetic at Low-Level](Low_002dLevel-Pointer-Arithmetic.md), Up:
 [Pointers](Pointers.md)  
 [Contents](index.md#SEC_Contents "Table of contents")  

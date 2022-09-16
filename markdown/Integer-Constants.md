@@ -16,7 +16,7 @@ such as `5`, `77`, and `403`. A decimal constant cannot start with the
 character '`0`' (zero) because that makes the constant octal.
 
 You can get the effect of a negative integer constant by putting a minus
-sign at the beginning. Grammatically speaking, that is an arithmetic
+sign at the beginning. In grammatical terms, that is an arithmetic
 expression rather than a constant, but it behaves just like a true
 constant.
 

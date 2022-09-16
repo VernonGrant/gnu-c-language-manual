@@ -17,4 +17,4 @@ Sometimes we need to insert spaces to separate tokens so that they won't
 be combined into a single number-like construct. For example, `0xE+12`
 is a preprocessing number that is not a valid numeric constant, so it is
 a syntax error. If what we want is the three tokens `0xE + 12`, we have
-to use those spaces as separators.
+to insert two spaces as separators.

@@ -28,7 +28,7 @@ struct employee_list
   struct employee_list *next;  /* incomplete type.  */
   …
 };
-  
+
 /* A group points to one employee_list.  */
 struct group
 {
