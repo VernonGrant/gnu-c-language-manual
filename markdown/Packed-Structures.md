@@ -5,7 +5,7 @@ Layout](Structure-Layout.md), Up: [Structures](Structures.md)  
 ------------------------------------------------------------------------
 
 
-### 15.5 Packed Structures 
+### 15.6 Packed Structures 
 
 
 In GNU C you can force a structure to be laid out with no gaps by adding

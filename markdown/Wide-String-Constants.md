@@ -16,7 +16,7 @@ There are three kinds of wide string constants, which differ in the data
 type used for each character in the string. Each wide string constant is
 equivalent to an array of integers, but the data type of those integers
 depends on the kind of wide string. Using the constant in an expression
-will convert the array to a pointer to its first element, as usual for
+will convert the array to a pointer to its zeroth element, as usual for
 arrays in C (see [Accessing Array
 Elements](Accessing-Array-Elements.md)). For each kind of wide string
 constant, we state here what type that pointer will be.

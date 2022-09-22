@@ -61,7 +61,7 @@ comma in the expansion:
 
 ``` C
 eprintf ("success!\n")
-     → fprintf(stderr, "success!\n", );
+     → fprintf(stderr, "success!\n", )
 ```
 
 That's an error in the call to `fprintf`.
@@ -80,7 +80,7 @@ the preceding comma.
 
 ``` C
 eprintf ("success!\n")
-     → fprintf(stderr, "success!\n");
+     → fprintf(stderr, "success!\n")
 ```
 
 This does *not* happen if you pass an empty argument, nor does it happen

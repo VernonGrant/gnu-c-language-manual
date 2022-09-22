@@ -1,12 +1,11 @@
-Next: [Field Offset](Field-Offset.md), Previous: [Referencing
-Structure Fields](Referencing-Fields.md), Up:
-[Structures](Structures.md)  
+Next: [Field Offset](Field-Offset.md), Previous: [Arrays as
+Fields](Arrays-as-Fields.md), Up: [Structures](Structures.md)  
 [Contents](index.md#SEC_Contents "Table of contents")  
 
 ------------------------------------------------------------------------
 
 
-### 15.2 Dynamic Memory Allocation 
+### 15.3 Dynamic Memory Allocation 
 
 
 To allocate an object dynamically, call the library function `malloc`
@@ -95,7 +94,6 @@ mylist = NULL;
 
 ------------------------------------------------------------------------
 
-Next: [Field Offset](Field-Offset.md), Previous: [Referencing
-Structure Fields](Referencing-Fields.md), Up:
-[Structures](Structures.md)  
+Next: [Field Offset](Field-Offset.md), Previous: [Arrays as
+Fields](Arrays-as-Fields.md), Up: [Structures](Structures.md)  
 [Contents](index.md#SEC_Contents "Table of contents")  

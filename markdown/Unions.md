@@ -6,7 +6,7 @@ Next: [Packing With Unions](Packing-With-Unions.md), Previous:
 ------------------------------------------------------------------------
 
 
-### 15.13 Unions 
+### 15.14 Unions 
 
 
 A *union type* defines alternative ways of looking at the same piece of

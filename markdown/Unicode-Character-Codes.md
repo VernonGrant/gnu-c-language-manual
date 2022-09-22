@@ -11,12 +11,12 @@ Previous: [UTF-8 String Constants](UTF_002d8-String-Constants.md), Up:
 
 You can specify Unicode characters, for individual character constants
 or as part of string constants (see [String
-Constants](String-Constants.md)), using escape sequences. Use the
-'`\u`' escape sequence with a 16-bit hexadecimal Unicode
-character code. If the code value is too big for 16 bits, use the
-'`\U`' escape sequence with a 32-bit hexadecimal Unicode
-character code. (These codes are called *universal character names*.)
-For example,
+Constants](String-Constants.md)), using escape sequences; and even in
+C identifiers. Use the '`\u`' escape sequence with a 16-bit
+hexadecimal Unicode character code. If the code value is too big for 16
+bits, use the '`\U`' escape sequence with a 32-bit hexadecimal
+Unicode character code. (These codes are called *universal character
+names*.) For example,
 
 ``` C
 \u6C34      /* 16-bit code (UTF-16) */
@@ -44,6 +44,12 @@ Constants](Wide-String-Constants.md)), like this:
 ``` C
 u"\u6C34\u6C33"  /* 16-bit code */
 U"\U0010ABCD"    /* 32-bit code */
+```
+
+And in an identifier:
+
+``` C
+int foo\u6C34bar = 0;
 ```
 
 Codes in the range of `D800` through `DFFF` are not valid in Unicode.

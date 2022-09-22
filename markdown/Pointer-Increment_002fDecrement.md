@@ -43,12 +43,14 @@ The statement '`break;`' will be explained further on (see
 immediately exits the surrounding `for` statement.
 
 `*p++` parses as `*(p++)`, because a postfix operator always takes
-precedence over a prefix operator. Therefore, it dereferences `p`, and
-increments `p` afterwards. Incrementing a variable means adding 1 to it,
-as in `p = p + 1`. Since `p` is a pointer, adding 1 to it advances it by
-the width of the datum it points to---in this case, `sizeof (int)`.
-Therefore, each iteration of the loop picks up the next integer from the
-series and puts it into `next`.
+precedence over a prefix operator. Therefore, it dereferences the
+entering value of `p`, then increments `p` afterwards.
+
+Incrementing a variable means adding 1 to it, as in `p = p + 1`. Since
+`p` is a pointer, adding 1 to it advances it by the width of the datum
+it points to---in this case, `sizeof (int)`. Therefore, each iteration
+of the loop picks up the next integer from the series and puts it into
+`next`.
 
 This `for`-loop has no initialization expression since `p` and `sum` are
 already initialized, has no end-test since the '`break;`'

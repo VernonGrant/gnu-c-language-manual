@@ -5,7 +5,7 @@ Types](Incomplete-Types.md), Up: [Structures](Structures.md)  
 ------------------------------------------------------------------------
 
 
-### 15.19 Intertwined Incomplete Types 
+### 15.20 Intertwined Incomplete Types 
 
 When several structure types contain pointers to each other, you can
 define the types in any order because pointers to types that come later

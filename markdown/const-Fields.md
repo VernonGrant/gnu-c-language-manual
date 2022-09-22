@@ -5,7 +5,7 @@ Packing](Bit-Field-Packing.md), Up: [Structures](Structures.md)  
 ------------------------------------------------------------------------
 
 
-### 15.8 `const` Fields 
+### 15.9 `const` Fields 
 
 
 A structure field declared `const` cannot be assigned to (see [`const`

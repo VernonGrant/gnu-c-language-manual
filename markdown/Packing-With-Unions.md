@@ -5,7 +5,7 @@ Next: [Cast to a Union Type](Cast-to-Union.md), Previous:
 ------------------------------------------------------------------------
 
 
-### 15.14 Packing With Unions 
+### 15.15 Packing With Unions 
 
 Sometimes we design a union with the intention of packing various kinds
 of objects into a certain amount of memory space. For example.

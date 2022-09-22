@@ -6,7 +6,7 @@ Types](Intertwined-Incomplete-Types.md), Up:
 ------------------------------------------------------------------------
 
 
-### 15.20 Type Tags 
+### 15.21 Type Tags 
 
 
 The name that follows `struct` (see [Structures](Structures.md)),

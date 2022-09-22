@@ -25,7 +25,7 @@ than the number of characters written in it.
 
 As with any array in C, using the string constant in an expression
 converts the array to a pointer (see [Pointers](Pointers.md)) to the
-array's first element (see [Accessing Array
+array's zeroth element (see [Accessing Array
 Elements](Accessing-Array-Elements.md)). This pointer will have type
 `char *` because it points to an element of type `char`. `char *` is an
 example of a type designator for a pointer type (see [Pointer-Type

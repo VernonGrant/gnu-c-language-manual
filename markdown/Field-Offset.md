@@ -6,7 +6,7 @@ Memory Allocation](Dynamic-Memory-Allocation.md), Up:
 ------------------------------------------------------------------------
 
 
-### 15.3 Field Offset 
+### 15.4 Field Offset 
 
 
 To determine the offset of a given field `field` in a

@@ -1,4 +1,4 @@
-Next: [Dynamic Memory Allocation](Dynamic-Memory-Allocation.md), Up:
+Next: [Arrays as Fields](Arrays-as-Fields.md), Up:
 [Structures](Structures.md)  
 [Contents](index.md#SEC_Contents "Table of contents")  
 

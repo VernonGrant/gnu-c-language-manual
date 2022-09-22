@@ -6,7 +6,7 @@ Previous: [Arrays of Length Zero](Zero-Length.md), Up:
 ------------------------------------------------------------------------
 
 
-### 15.10 Flexible Array Fields 
+### 15.11 Flexible Array Fields 
 
 
 The C99 standard adopted a more complex equivalent of zero-length array

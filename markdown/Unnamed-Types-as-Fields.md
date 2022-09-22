@@ -6,7 +6,7 @@ Constructors](Structure-Constructors.md), Up:
 ------------------------------------------------------------------------
 
 
-### 15.17 Unnamed Types as Fields 
+### 15.18 Unnamed Types as Fields 
 
 
 A structure or a union can contain, as fields, unnamed structures and

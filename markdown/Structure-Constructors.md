@@ -6,7 +6,7 @@ Next: [Unnamed Types as Fields](Unnamed-Types-as-Fields.md), Previous:
 ------------------------------------------------------------------------
 
 
-### 15.16 Structure Constructors 
+### 15.17 Structure Constructors 
 
 
 You can construct a structure value by writing its type in parentheses,
@@ -45,6 +45,14 @@ Expressions](Statement-Exprs.md)):
   struct foo temp = {x + y, 'a', 0};
   temp;
 })
+```
+
+You can also use field labels in the structure constructor to indicate
+which fields you're specifying values for, instead of using the order of
+the fields to specify that:
+
+``` C
+(struct foo) {.a = x + y, .b = {'a', 0}}
 ```
 
 You can also create a union value this way, but it is not especially

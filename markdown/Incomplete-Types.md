@@ -6,7 +6,7 @@ Previous: [Unnamed Types as Fields](Unnamed-Types-as-Fields.md), Up:
 ------------------------------------------------------------------------
 
 
-### 15.18 Incomplete Types 
+### 15.19 Incomplete Types 
 
 
 A type that has not been fully defined is called an *incomplete type*.

@@ -90,6 +90,7 @@ Standard C requires at least one field in a structure. GNU C does not
 require this.
 
 -   [Referencing Structure Fields](Referencing-Fields.md)
+-   [Arrays as Fields](Arrays-as-Fields.md)
 -   [Dynamic Memory Allocation](Dynamic-Memory-Allocation.md)
 -   [Field Offset](Field-Offset.md)
 -   [Structure Layout](Structure-Layout.md)

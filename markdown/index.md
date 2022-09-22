@@ -291,39 +291,41 @@ Please report errors and suggestions to c-manual\@gnu.org.
 -   [15 Structures](Structures.md)
     -   [15.1 Referencing Structure
         Fields](Referencing-Fields.md)
-    -   [15.2 Dynamic Memory
+    -   [15.2 Arrays as
+        Fields](Arrays-as-Fields.md)
+    -   [15.3 Dynamic Memory
         Allocation](Dynamic-Memory-Allocation.md)
-    -   [15.3 Field Offset](Field-Offset.md)
-    -   [15.4 Structure
+    -   [15.4 Field Offset](Field-Offset.md)
+    -   [15.5 Structure
         Layout](Structure-Layout.md)
-    -   [15.5 Packed
+    -   [15.6 Packed
         Structures](Packed-Structures.md)
-    -   [15.6 Bit Fields](Bit-Fields.md)
-    -   [15.7 Bit Field
+    -   [15.7 Bit Fields](Bit-Fields.md)
+    -   [15.8 Bit Field
         Packing](Bit-Field-Packing.md)
-    -   [15.8 `const` Fields](const-Fields.md)
-    -   [15.9 Arrays of Length
+    -   [15.9 `const` Fields](const-Fields.md)
+    -   [15.10 Arrays of Length
         Zero](Zero-Length.md)
-    -   [15.10 Flexible Array
+    -   [15.11 Flexible Array
         Fields](Flexible-Array-Fields.md)
-    -   [15.11 Overlaying Different
+    -   [15.12 Overlaying Different
         Structures](Overlaying-Structures.md)
-    -   [15.12 Structure
+    -   [15.13 Structure
         Assignment](Structure-Assignment.md)
-    -   [15.13 Unions](Unions.md)
-    -   [15.14 Packing With
+    -   [15.14 Unions](Unions.md)
+    -   [15.15 Packing With
         Unions](Packing-With-Unions.md)
-    -   [15.15 Cast to a Union
+    -   [15.16 Cast to a Union
         Type](Cast-to-Union.md)
-    -   [15.16 Structure
+    -   [15.17 Structure
         Constructors](Structure-Constructors.md)
-    -   [15.17 Unnamed Types as
+    -   [15.18 Unnamed Types as
         Fields](Unnamed-Types-as-Fields.md)
-    -   [15.18 Incomplete
+    -   [15.19 Incomplete
         Types](Incomplete-Types.md)
-    -   [15.19 Intertwined Incomplete
+    -   [15.20 Intertwined Incomplete
         Types](Intertwined-Incomplete-Types.md)
-    -   [15.20 Type Tags](Type-Tags.md)
+    -   [15.21 Type Tags](Type-Tags.md)
 -   [16 Arrays](Arrays.md)
     -   [16.1 Accessing Array
         Elements](Accessing-Array-Elements.md)

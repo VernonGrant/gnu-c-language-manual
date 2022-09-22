@@ -5,7 +5,7 @@ Structures](Packed-Structures.md), Up: [Structures](Structures.md)  
 ------------------------------------------------------------------------
 
 
-### 15.6 Bit Fields 
+### 15.7 Bit Fields 
 
 
 A structure field declaration with an integer type can specify the

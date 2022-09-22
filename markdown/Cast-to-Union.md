@@ -6,7 +6,7 @@ Next: [Structure Constructors](Structure-Constructors.md), Previous:
 ------------------------------------------------------------------------
 
 
-### 15.15 Cast to a Union Type 
+### 15.16 Cast to a Union Type 
 
 
 In GNU C, you can explicitly cast any of the alternative types to the

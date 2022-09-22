@@ -5,11 +5,11 @@ Next: [Flexible Array Fields](Flexible-Array-Fields.md), Previous:
 ------------------------------------------------------------------------
 
 
-### 15.9 Arrays of Length Zero 
+### 15.10 Arrays of Length Zero 
 
 
-GNU C allows zero-length arrays. They are useful as the last element of
-a structure that is really a header for a variable-length object. Here's
+GNU C allows zero-length arrays. They are useful as the last field of a
+structure that is really a header for a variable-length object. Here's
 an example, where we construct a variable-size structure to hold a line
 which is `this_length` characters long:
 

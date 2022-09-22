@@ -5,7 +5,7 @@ Fields](Bit-Fields.md), Up: [Structures](Structures.md)  
 ------------------------------------------------------------------------
 
 
-### 15.7 Bit Field Packing 
+### 15.8 Bit Field Packing 
 
 Programs to communicate with low-level hardware interfaces need to
 define bit fields laid out to match the hardware data. This section

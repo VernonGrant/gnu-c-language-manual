@@ -6,7 +6,7 @@ Next: [Structure Assignment](Structure-Assignment.md), Previous:
 ------------------------------------------------------------------------
 
 
-### 15.11 Overlaying Different Structures 
+### 15.12 Overlaying Different Structures 
 
 
 Be careful about using different structure types to refer to the same

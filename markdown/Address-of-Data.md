@@ -18,8 +18,9 @@ double a[5];
 
 Now, `&i` gives the address of the variable `i`---a pointer value that
 points to `i`'s location---and `&a[3]` gives the address of the element
-3 of `a`. (It is actually the fourth element in the array, since the
-first element has index 0.)
+3 of `a`. (By the usual 1-origin numbering convention of ordinary
+English, it is actually the fourth element in the array, since the
+element at the start has index 0.)
 
 The address-of operator is unusual because it operates on a place to
 store a value (an lvalue, see [Lvalues](Lvalues.md)), not on the value

@@ -5,7 +5,7 @@ Offset](Field-Offset.md), Up: [Structures](Structures.md)  
 ------------------------------------------------------------------------
 
 
-### 15.4 Structure Layout 
+### 15.5 Structure Layout 
 
 
 The rest of this chapter covers advanced topics about structures. If you

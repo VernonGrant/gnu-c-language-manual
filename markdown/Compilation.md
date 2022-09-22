@@ -72,8 +72,9 @@ faster.
 Normally we don't run any of these commands directly. Instead we write a
 set of *make rules* for the program, then use the `make` program to
 recompile only the source files that need to be recompiled, by following
-those rules. See [The GNU Make Manual](../Make/index.md#Top) in The
-GNU Make Manual.
+those rules. See [The GNU Make
+Manual](https://www.gnu.org/software/make/manual/html_node/index.md#Top)
+in The GNU Make Manual.
 
 ------------------------------------------------------------------------
 

@@ -33,7 +33,7 @@ expression is not an lvalue. Thus, the variable `x` is an lvalue, but
 
 An array can be an lvalue (the rules above determine whether it is one),
 but using the array in an expression converts it automatically to a
-pointer to the first element. The result of this conversion is not an
+pointer to the zeroth element. The result of this conversion is not an
 lvalue. Thus, if the variable `a` is an array, you can't use `a` by
 itself as the left operand of an assignment. But you can assign to an
 element of `a`, such as `a[0]`. That is an lvalue since `a` is an

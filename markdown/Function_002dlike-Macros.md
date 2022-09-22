@@ -14,10 +14,21 @@ directive with a pair of parentheses immediately after the macro name.
 For example,
 
 ``` C
-#define lang_init()  c_init()
+#define lang_init()  c_init ()
+lang_init ()
+     → c_init ()
+lang_init     ()
+     → c_init ()
 lang_init()
-     → c_init()
+     → c_init ()
 ```
+
+There must be no space between the macro name and the following
+open-parenthesis in the the `#define` directive; that's what indicates
+you're defining a function-like macro. However, you can add unnecessary
+whitespace around the open-parenthesis (and around the
+close-parenthesis) when you *call* the macro; they don't change
+anything.
 
 A function-like macro is expanded only when its name appears with a pair
 of parentheses after it. If you write just the name, without
