@@ -20,6 +20,11 @@ declares a function `numbered_slot_pointer` that takes an integer
 parameter and returns a pointer, but we don't say what type of data it
 points to.
 
+The functions for dynamic memory allocation (see [Dynamic Memory
+Allocation](Dynamic-Memory-Allocation.md)) use type `void *` to refer
+to blocks of memory, regardless of what sort of data the program stores
+in those blocks.
+
 With type `void *`, you can pass the pointer around and test whether it
 is null. However, dereferencing it gives a `void` value that can't be
 used (see [The Void Type](The-Void-Type.md)). To dereference the

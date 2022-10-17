@@ -29,7 +29,8 @@ and `average` so that it simply is a `double`.
 However, while you *can* combine them, that doesn't mean you *should*.
 If it is useful to write comments about the variables, and usually it
 is, then it's clearer to keep the declarations separate so you can put a
-comment on each one.
+comment on each one. That also helps with using textual tools to find
+occurrences of a variable in source files.
 
 We set all of the elements of the array `nums_to_average` with
 assignments, but it is more convenient to use an initializer in the

@@ -36,7 +36,7 @@ call to it. This is called *inlining* the function. It makes the code
 that contains the call run faster, significantly so if the inline
 function is small.
 
-Here's a function that uses `pair_second`:
+Here's a function that uses `list_second`:
 
 ``` C
 int
@@ -46,13 +46,13 @@ pairlist_length (struct list *l)
   while (l)
     {
       length++;
-      l = pair_second (l);
+      l = list_second (l);
     }
   return length;
 }
 ```
 
-Substituting the code of `pair_second` into the definition of
+Substituting the code of `list_second` into the definition of
 `pairlist_length` results in this code, in effect:
 
 ``` C
@@ -69,7 +69,7 @@ pairlist_length (struct list *l)
 }
 ```
 
-Since the definition of `pair_second` does not say `extern` or `static`,
+Since the definition of `list_second` does not say `extern` or `static`,
 that definition is used only for inlining. It doesn't generate code that
 can be called at run time. If not all the calls to the function are
 inlined, there must be a definition of the same function name in another

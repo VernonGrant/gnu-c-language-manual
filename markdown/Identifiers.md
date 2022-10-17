@@ -34,9 +34,10 @@ You can also include other characters, even non-ASCII characters, in
 identifiers by writing their Unicode character names, which start with
 '`\u`' or '`\U`', in the identifier name. See [Unicode
 Character Codes](Unicode-Character-Codes.md). However, it is usually a
-bad idea to use non-ASCII characters in identifiers, and when they are
-written in English, they never need non-ASCII characters. See [Write
+bad idea to use non-ASCII characters in identifiers, and when the names
+are written in English, they never need non-ASCII characters. See [Write
 Programs in English!](English.md).
 
-Whitespace is required to separate two consecutive identifiers, or to
-separate an identifier from a preceding or following numeric constant.
+As stated above, whitespace is required to separate two consecutive
+identifiers, or to separate an identifier from a preceding or following
+numeric constant.

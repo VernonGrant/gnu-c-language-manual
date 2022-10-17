@@ -20,7 +20,7 @@ multiply the constant's value by ten to the `n`th power.
 Thus, '`1500.0`', '`15e2`', '`15e+2`',
 '`15.0e2`', '`1.5e+3`', '`.15e4`', and
 '`15000e-1`' are six ways of writing a floating-point number
-whose value is 1500. They are all equivalent.
+whose value is 1500. They are all equivalent in principle.
 
 Here are more examples with decimal points:
 
@@ -73,8 +73,8 @@ Here are some examples:
 ``` C
 0xAp2        // 40 in decimal
 0xAp-1       // 5 in decimal
-0x2.0Bp4     // 16.75 decimal
-0xE.2p3      // 121 decimal
+0x2.0Bp4     // 32.6875 decimal
+0xE.2p3      // 113 decimal
 0x123.ABCp0  // 291.6708984375 in decimal
 0x123.ABCp4  // 4666.734375 in decimal
 0x100p-8     // 1

@@ -19,11 +19,7 @@ keyword. In the preprocessing stage, GCC does not know anything about
 keywords. This can be useful if you wish to hide a keyword such as
 `const` from an older compiler that does not understand it. However, the
 preprocessing operator `defined` (see [The `defined`
-test](defined.md)) can never be defined as a macro, and C`++`'s named
-operators (see [C++ Named
-Operators](https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Named-Operators.md#C_002b_002b-Named-Operators)
-in Using the GNU Compiler Collection) cannot be macros when compiling
-C`++` code.
+test](defined.md)) can never be defined as a macro.
 
 The operator `#` is used in macros for stringification of an argument
 (see [Stringification](Stringification.md)), and `##` is used for

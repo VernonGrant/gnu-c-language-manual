@@ -35,7 +35,7 @@ write code like this example for interval addition of two reals:
     {
       double hi, lo;
     } v;
-  volatile double x, y;
+  extern volatile double x, y;
   int rule;
 
   rule = fegetround ();

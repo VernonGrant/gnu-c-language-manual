@@ -37,7 +37,7 @@ Infinities can be compared, and all Infinities of the same sign are
 equal: there is no notion in IEEE 754 arithmetic of different kinds of
 Infinities, as there are in some areas of mathematics. Positive Infinity
 is larger than any finite value, and negative Infinity is smaller than
-finite value.
+any finite value.
 
 Infinities propagate in addition, subtraction, multiplication, and
 square root, but in division, they disappear, because of the rule that

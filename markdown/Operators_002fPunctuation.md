@@ -44,7 +44,7 @@ grouping. Semicolon ('`;`') ends a statement. Braces
 ('`{`' and '`}`') begin and end a block at the
 statement level (see [Blocks](Blocks.md)), and surround the
 initializer (see [Initializers](Initializers.md)) for a variable with
-multiple elements or components (such as arrays or structures).
+multiple elements or fields (such as arrays or structures).
 
 Square brackets ('`[`' and '`]`') do array indexing,
 as in `array[5]`.

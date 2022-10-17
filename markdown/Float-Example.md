@@ -40,7 +40,7 @@ printf ("Average is %f\n",
 
 The code that calls `printf` must pass a `double` for printing with
 '`%f`' and an `int` for printing with '`%d`'. If the
-argument has the wrong type, `printf` will produce garbage output.
+argument has the wrong type, `printf` will produce meaningless output.
 
 Here's a complete program that computes the average of three specific
 numbers and prints the result:

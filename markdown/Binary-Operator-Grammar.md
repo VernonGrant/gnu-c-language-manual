@@ -36,18 +36,19 @@ explicit.[^2^](#FOOT2)
 You can depend on this subsequence of the precedence ordering (stated
 from highest precedence to lowest):
 
-1.  Component access ('`.`' and '`->`').
+1.  Postfix operations: access to a field or alternative ('`.`'
+    and '`->`'), array subscripting, function calls, and unary
+    postfix operators.
 2.  Unary prefix operators.
-3.  Unary postfix operators.
-4.  Multiplication, division, and remainder (they have the same
+3.  Multiplication, division, and remainder (they have the same
     precedence).
-5.  Addition and subtraction (they have the same precedence).
-6.  Comparisons---but watch out!
-7.  Logical operators '`&&`' and '`||`'---but watch
+4.  Addition and subtraction (they have the same precedence).
+5.  Comparisons---but watch out!
+6.  Logical operators '`&&`' and '`||`'---but watch
     out!
-8.  Conditional expression with '`?`' and '`:`'.
-9.  Assignments.
-10. Sequential execution (the comma operator, '`,`').
+7.  Conditional expression with '`?`' and '`:`'.
+8.  Assignments.
+9.  Sequential execution (the comma operator, '`,`').
 
 Two of the lines in the above list say "but watch out!" That means that
 the line covers operators with subtly different precedence. Never depend
@@ -85,8 +86,8 @@ Personal note from Richard Stallman: I wrote GCC without remembering
 anything about the C precedence order beyond what's stated here. I
 studied the full precedence table to write the parser, and promptly
 forgot it again. If you need to look up the full precedence order to
-understand some C code, fix the code with parentheses so nobody else
-needs to do that.
+understand some C code, add enough parentheses so nobody else needs to
+do that.
 
 ------------------------------------------------------------------------
 

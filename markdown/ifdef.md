@@ -57,7 +57,7 @@ Here are some samples.
 
 -   Some macros are predefined on each kind of machine (see
     [System-specific Predefined
-    Macros](https://gcc.gnu.org/onlinedocs/gcc/System_002dspecific-Predefined-Macros.md#System_002dspecific-Predefined-Macros)
+    Macros](https://gcc.gnu.org/onlinedocs/gcc/System-specific-Predefined-Macros.md#System-specific-Predefined-Macros)
     in Using the GNU Compiler Collection). This allows you to provide
     code specially tuned for a particular machine.
 -   System header files define more macros, associated with the features

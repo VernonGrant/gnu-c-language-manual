@@ -42,9 +42,11 @@ The statement '`break;`' will be explained further on (see
 [`break` Statement](break-Statement.md)). Used in this way, it
 immediately exits the surrounding `for` statement.
 
-`*p++` parses as `*(p++)`, because a postfix operator always takes
-precedence over a prefix operator. Therefore, it dereferences the
-entering value of `p`, then increments `p` afterwards.
+`*p++` uses postincrement (`++`; see [Postincrement and
+Postdecrement](Postincrement_002fPostdecrement.md)) on the pointer
+`p`. that expression parses as `*(p++)`, because a postfix operator
+always takes precedence over a prefix operator. Therefore, it
+dereferences the entering value of `p`, then increments `p` afterwards.
 
 Incrementing a variable means adding 1 to it, as in `p = p + 1`. Since
 `p` is a pointer, adding 1 to it advances it by the width of the datum

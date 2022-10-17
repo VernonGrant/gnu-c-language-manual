@@ -25,6 +25,7 @@ int main (void)
 {
   double x = 100.0;
   double y;
+  int n, k;
   for (n = 10; n <= 100; n += 10)
     {
       y = x;

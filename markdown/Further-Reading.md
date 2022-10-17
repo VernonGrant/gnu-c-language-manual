@@ -16,32 +16,32 @@ pitfalls that can soon lead to nonsensical results. There are a few good
 references that we recommend for further reading, and for finding other
 important material about computer arithmetic:
 
+We include URLs for these references when we were given them, when they
+are morally legitimate to recommend; we have omitted the URLs that are
+paywalled or that require running nonfree JavaScript code in order to
+function. We hope you can find morally legitimate sites where you can
+access these works.
+
 -   Paul H. Abbott and 15 others, Architecture and software support in
     IBM S/390 Parallel Enterprise Servers for IEEE Floating-Point
     arithmetic, IBM Journal of Research and Development **43**(5/6)
-    723--760 (1999), <https://doi.org/10.1147/rd.435.0723>. This article
-    gives a good description of IBM's algorithm for exact
-    decimal-to-binary conversion, complementing earlier ones by Clinger
-    and others.
+    723--760 (1999), This article gives a good description of IBM's
+    algorithm for exact decimal-to-binary conversion, complementing
+    earlier ones by Clinger and others.
 -   Nelson H. F. Beebe, The Mathematical-Function Computation Handbook:
     Programming Using the MathCW Portable Software Library, Springer
-    (2017), ISBN 3-319-64109-3 (hardcover), 3-319-64110-7 (e-book)
-    (xxxvi + 1114 pages), <https://doi.org/10.1007/978-3-319-64110-2>.
-    This book describes portable implementations of a large superset of
-    the mathematical functions available in many programming languages,
-    extended to a future 256-bit format (70 decimal digits), for both
-    binary and decimal floating point. It includes a substantial portion
-    of the functions described in the famous NIST Handbook of
-    Mathematical Functions, Cambridge (2018), ISBN 0-521-19225-0. See
-    <https://www.math.utah.edu/pub/mathcw> for compilers and libraries.
+    (2017). This book describes portable implementations of a large
+    superset of the mathematical functions available in many programming
+    languages, extended to a future 256-bit format (70 decimal digits),
+    for both binary and decimal floating point. It includes a
+    substantial portion of the functions described in the famous NIST
+    Handbook of Mathematical Functions, Cambridge (2018), ISBN
+    0-521-19225-0. See <https://www.math.utah.edu/pub/mathcw/> for
+    compilers and libraries.
 -   William D. Clinger, How to Read Floating Point Numbers Accurately,
     ACM SIGPLAN Notices **25**(6) 92--101 (June 1990),
     <https://doi.org/10.1145/93548.93557>. See also the papers by Steele
     & White.
--   William D. Clinger, Retrospective: How to read floating point
-    numbers accurately, ACM SIGPLAN Notices **39**(4) 360--371 (April
-    2004), <https://doi.acm.org/10.1145/989393.989430>. Reprint of 1990
-    paper, with additional commentary.
 -   I. Bennett Goldberg, 27 Bits Are Not Enough For 8-Digit Accuracy,
     Communications of the ACM **10**(2) 105--106 (February 1967),
     <https://doi.acm.org/10.1145/363067.363112>. This paper, and its
@@ -85,11 +85,10 @@ important material about computer arithmetic:
 -   Donald E. Knuth, A Simple Program Whose Proof Isn't, in Beauty is
     our business: a birthday salute to Edsger W. Dijkstra, W. H. J.
     Feijen, A. J. M. van Gasteren, D. Gries, and J. Misra (eds.),
-    Springer (1990), ISBN 1-4612-8792-8,
-    <https://doi.org/10.1007/978-1-4612-4476-9>. This book chapter
-    supplies a correctness proof of the decimal to binary, and binary to
-    decimal, conversions in fixed-point arithmetic in the TeX
-    typesetting system. The proof evaded its author for a dozen years.
+    Springer (1990), ISBN 1-4612-8792-8, This book chapter supplies a
+    correctness proof of the decimal to binary, and binary to decimal,
+    conversions in fixed-point arithmetic in the TeX typesetting system.
+    The proof evaded its author for a dozen years.
 -   David W. Matula, In-and-out conversions, Communications of the ACM
     **11**(1) 57--50 (January 1968),
     <https://doi.org/10.1145/362851.362887>.
@@ -98,33 +97,31 @@ important material about computer arithmetic:
     also other papers here by this author, and by I. Bennett Goldberg.
 -   David W. Matula, A Formalization of Floating-Point Numeric Base
     Conversion, IEEE Transactions on Computers **C-19**(8) 681--692
-    (August 1970), <https://doi.org/10.1109/T-C.1970.223017>.
+    (August 1970),
 -   Jean-Michel Muller and eight others, Handbook of Floating-Point
     Arithmetic, Birkhäuser-Boston (2010), ISBN 0-8176-4704-X (xxiii +
-    572 pages), <https://doi.org/10.1007/978-0-8176-4704-9>. This is a
-    comprehensive treatise from a French team who are among the world's
-    greatest experts in floating-point arithmetic, and among the most
-    prolific writers of research papers in that field. They have much to
-    teach, and their book deserves a place on the shelves of every
-    serious numerical programmer.
+    572 pages). This is a comprehensive treatise from a French team who
+    are among the world's greatest experts in floating-point arithmetic,
+    and among the most prolific writers of research papers in that
+    field. They have much to teach, and their book deserves a place on
+    the shelves of every serious numerical programmer.
 -   Jean-Michel Muller and eight others, Handbook of Floating-Point
     Arithmetic, Second edition, Birkhäuser-Boston (2018), ISBN
-    3-319-76525-6 (xxv + 627 pages),
-    <https://doi.org/10.1007/978-3-319-76526-6>. This is a new edition
-    of the preceding entry.
+    3-319-76525-6 (xxv + 627 pages). This is a new edition of the
+    preceding entry.
 -   Michael Overton, Numerical Computing with IEEE Floating Point
     Arithmetic, Including One Theorem, One Rule of Thumb, and One
     Hundred and One Exercises, SIAM (2001), ISBN 0-89871-482-6 (xiv +
-    104 pages), <https://www.ec-securehost.com/SIAM/ot76.md>. This is
-    a small volume that can be covered in a few hours.
+    104 pages), This is a small volume that can be covered in a few
+    hours.
 -   Guy L. Steele Jr. and Jon L. White, How to Print Floating-Point
     Numbers Accurately, ACM SIGPLAN Notices **25**(6) 112--126 (June
     1990), <https://doi.org/10.1145/93548.93559>. See also the papers by
     Clinger.
 -   Guy L. Steele Jr. and Jon L. White, Retrospective: How to Print
     Floating-Point Numbers Accurately, ACM SIGPLAN Notices **39**(4)
-    372--389 (April 2004), <https://doi.acm.org/10.1145/989393.989431>.
-    Reprint of 1990 paper, with additional commentary.
+    372--389 (April 2004), Reprint of 1990 paper, with additional
+    commentary.
 -   Pat H. Sterbenz, Floating Point Computation, Prentice-Hall (1974),
     ISBN 0-13-322495-3 (xiv + 316 pages). This often-cited book provides
     solid coverage of what floating-point arithmetic was like *before*

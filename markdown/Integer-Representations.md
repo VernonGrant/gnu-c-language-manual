@@ -30,17 +30,18 @@ from *-2^(`n`\ -\ 1)^* to -1 to 0 to 1 to
 *+2^(`n`\ -\ 1)^ - 1*, inclusive. The leftmost, or
 high-order, bit is called the *sign bit*.
 
-There is only one value that means zero, and the most negative number
-lacks a positive counterpart. As a result, negating that number causes
-overflow; in practice, its result is that number back again. For
-example, a two's-complement signed 8-bit integer can represent all
-decimal numbers from -128 to +127. We will revisit that peculiarity
-shortly.
+In two's-complement representation, there is only one value that means
+zero, and the most negative number lacks a positive counterpart. As a
+result, negating that number causes overflow; in practice, its result is
+that number back again. We will revisit that peculiarity shortly.
 
-Decades ago, there were computers that didn't use two's-complement
-representation for integers (see [Integers in
-Depth](Integers-in-Depth.md)), but they are long gone and not worth
-any effort to support.
+For example, a two's-complement signed 8-bit integer can represent all
+decimal numbers from -128 to +127. Negating -128 ought to give +128, but
+that value won't fit in 8 bits, so the operation yields -128.
+
+Decades ago, there were computers that used other representations for
+signed integers, but they are long gone and not worth any effort to
+support. The GNU C language does not support them.
 
 When an arithmetic operation produces a value that is too big to
 represent, the operation is said to *overflow*. In C, integer overflow

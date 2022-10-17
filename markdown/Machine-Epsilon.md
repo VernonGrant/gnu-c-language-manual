@@ -40,7 +40,7 @@ with a user-supplied value:
 double
 macheps (double x)
 { /* Return machine epsilon for x,  */
-      such that x + macheps (x) > x.  */
+   /* such that x + macheps (x) > x.  */
   static const double base = 2.0;
   double eps;
 
